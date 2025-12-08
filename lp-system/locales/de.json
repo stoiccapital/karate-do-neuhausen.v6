@@ -1,0 +1,226 @@
+{
+  "example-lp": {
+    "hero": {
+      "eyebrow": "Neue Plattform",
+      "title": "Bauen Sie bessere Produkte schneller",
+      "subtitle": "Die komplette Lösung für moderne Teams, um schneller zu liefern und besser zu skalieren.",
+      "primaryCtaLabel": "Loslegen",
+      "secondaryCtaLabel": "Mehr erfahren"
+    },
+    "socialProof": {
+      "label": "Vertraut von Teams bei"
+    },
+    "valueProps": {
+      "heading": "Alles was Sie brauchen",
+      "subtitle": "Leistungsstarke Funktionen, die Ihnen beim Aufbau und der Skalierung helfen",
+      "items": [
+        {
+          "title": "Schnell & Zuverlässig",
+          "body": "Gebaut für Leistung mit moderner Architektur und Best Practices."
+        },
+        {
+          "title": "Einfache Integration",
+          "body": "Verbinden Sie sich nahtlos mit Ihren bestehenden Tools und Workflows."
+        },
+        {
+          "title": "24/7 Support",
+          "body": "Erhalten Sie Hilfe, wenn Sie sie brauchen, mit unserem engagierten Support-Team."
+        }
+      ]
+    },
+    "features": {
+      "heading": "Leistungsstarke Funktionen",
+      "subtitle": "Alles was Sie zum Erfolg brauchen",
+      "items": [
+        {
+          "title": "Erweiterte Analysen",
+          "body": "Verfolgen Sie Ihre Metriken und treffen Sie datengestützte Entscheidungen mit umfassenden Analysen."
+        },
+        {
+          "title": "Team-Zusammenarbeit",
+          "body": "Arbeiten Sie nahtlos zusammen mit integrierten Collaboration-Tools und Workflows."
+        },
+        {
+          "title": "Sicher & Konform",
+          "body": "Sicherheit und Compliance auf Unternehmensniveau, um Ihre Daten sicher zu halten."
+        }
+      ]
+    },
+    "deepDive": {
+      "heading": "Wie es funktioniert",
+      "subtitle": "Starten Sie in wenigen Minuten mit unserem einfachen Prozess",
+      "steps": [
+        {
+          "title": "Anmelden und verbinden",
+          "body": "Erstellen Sie Ihr Konto und verbinden Sie Ihre bestehenden Tools mit nur wenigen Klicks."
+        },
+        {
+          "title": "Arbeitsbereich konfigurieren",
+          "body": "Passen Sie Ihre Einstellungen und Präferenzen an den Workflow Ihres Teams an."
+        },
+        {
+          "title": "Zusammenarbeit beginnen",
+          "body": "Laden Sie Ihre Teammitglieder ein und beginnen Sie nahtlos zusammenzuarbeiten."
+        }
+      ]
+    },
+    "useCases": {
+      "heading": "Anwendungsfälle",
+      "subtitle": "Perfekt für Teams jeder Größe",
+      "items": [
+        {
+          "title": "Startups",
+          "body": "Starten Sie schnell mit unserem optimierten Onboarding-Prozess."
+        },
+        {
+          "title": "Wachsende Teams",
+          "body": "Skalieren Sie mühelos, wenn Ihr Team mit flexiblen Plänen wächst."
+        },
+        {
+          "title": "Unternehmen",
+          "body": "Funktionen und Sicherheit auf Unternehmensniveau für große Organisationen."
+        }
+      ]
+    },
+    "integrations": {
+      "heading": "Integrationen",
+      "subtitle": "Funktioniert mit den Tools, die Sie bereits verwenden",
+      "integrations": [
+        { "name": "Slack" },
+        { "name": "GitHub" },
+        { "name": "Jira" },
+        { "name": "Notion" },
+        { "name": "Figma" },
+        { "name": "Linear" }
+      ]
+    },
+    "security": {
+      "heading": "Sicherheit & Compliance",
+      "subtitle": "Schutz auf Unternehmensniveau für Ihre Daten",
+      "items": [
+        {
+          "title": "Sicherheit",
+          "body": "End-to-End-Verschlüsselung und erweiterte Sicherheitsprotokolle halten Ihre Daten sicher."
+        },
+        {
+          "title": "Compliance",
+          "body": "Erfüllen Sie Branchenstandards mit SOC 2, GDPR und HIPAA-Compliance."
+        },
+        {
+          "title": "Zuverlässigkeit",
+          "body": "99,9% Uptime-SLA mit redundanter Infrastruktur und automatisierten Backups."
+        }
+      ]
+    },
+    "metrics": {
+      "heading": "Bewährte Ergebnisse",
+      "subtitle": "Sehen Sie die Auswirkungen selbst",
+      "metrics": [
+        {
+          "value": "40%",
+          "label": "Produktivitätssteigerung",
+          "description": "Durchschnittliche Verbesserung der Team-Effizienz"
+        },
+        {
+          "value": "27%",
+          "label": "Schnellere Lieferung",
+          "description": "Reduzierte Time-to-Market für neue Funktionen"
+        },
+        {
+          "value": "98%",
+          "label": "Kundenzufriedenheit",
+          "description": "Teams lieben die Nutzung unserer Plattform"
+        }
+      ]
+    },
+    "pricing": {
+      "heading": "Einfache Preisgestaltung",
+      "subtitle": "Wählen Sie den Plan, der für Sie funktioniert",
+      "plans": [
+        {
+          "name": "Starter",
+          "price": "29€",
+          "description": "Perfekt für kleine Teams",
+          "features": [
+            "Bis zu 5 Benutzer",
+            "Grundfunktionen",
+            "E-Mail-Support"
+          ],
+          "ctaLabel": "Loslegen"
+        },
+        {
+          "name": "Professional",
+          "price": "99€",
+          "description": "Für wachsende Unternehmen",
+          "features": [
+            "Bis zu 25 Benutzer",
+            "Erweiterte Funktionen",
+            "Prioritäts-Support",
+            "Benutzerdefinierte Integrationen"
+          ],
+          "ctaLabel": "Loslegen"
+        },
+        {
+          "name": "Enterprise",
+          "price": "Individuell",
+          "description": "Für große Organisationen",
+          "features": [
+            "Unbegrenzte Benutzer",
+            "Alle Funktionen",
+            "24/7 Support",
+            "Individuelle Lösungen"
+          ],
+          "ctaLabel": "Verkauf kontaktieren"
+        }
+      ]
+    },
+    "faq": {
+      "heading": "Häufig gestellte Fragen",
+      "subtitle": "Alles was Sie wissen müssen",
+      "items": [
+        {
+          "question": "Wie funktioniert es?",
+          "answer": "Unsere Plattform integriert sich nahtlos in Ihre bestehenden Tools und Workflows und macht es einfach, in wenigen Minuten loszulegen."
+        },
+        {
+          "question": "Kann ich jederzeit kündigen?",
+          "answer": "Ja, Sie können Ihr Abonnement jederzeit ohne Strafen oder Gebühren kündigen."
+        },
+        {
+          "question": "Bieten Sie Support an?",
+          "answer": "Ja, wir bieten 24/7 Support für alle Pläne, mit Prioritäts-Support auf höheren Ebenen."
+        }
+      ]
+    },
+    "testimonials": {
+      "heading": "Was unsere Kunden sagen",
+      "subtitle": "Vertraut von Teams weltweit",
+      "testimonials": [
+        {
+          "quote": "Diese Plattform hat die Art und Weise verändert, wie unser Team zusammenarbeitet. Wir haben seit dem Wechsel eine Produktivitätssteigerung von 40% verzeichnet.",
+          "name": "Sarah Johnson",
+          "role": "Leiterin Produkt, TechCorp",
+          "metric": "+40% Produktivität"
+        },
+        {
+          "quote": "Die beste Investition, die wir dieses Jahr getätigt haben. Der ROI war bereits im ersten Monat nach der Implementierung sichtbar.",
+          "name": "Michael Chen",
+          "role": "CTO, StartupXYZ",
+          "metric": "+27% Konversion"
+        },
+        {
+          "quote": "Hervorragender Support und ein Produkt, das einfach funktioniert. Unser Team könnte nicht glücklicher mit den Ergebnissen sein.",
+          "name": "Emma Williams",
+          "role": "Operations-Direktorin, GrowthCo",
+          "metric": "98% Zufriedenheit"
+        }
+      ]
+    },
+    "finalCta": {
+      "heading": "Bereit loszulegen?",
+      "subtitle": "Schließen Sie sich Tausenden von Teams an, die bereits unsere Plattform nutzen",
+      "ctaLabel": "Heute loslegen"
+    }
+  }
+}
+

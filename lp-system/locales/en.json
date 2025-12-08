@@ -1,0 +1,225 @@
+{
+  "example-lp": {
+    "hero": {
+      "eyebrow": "New Platform",
+      "title": "Build better products faster",
+      "subtitle": "The complete solution for modern teams to ship faster and scale better.",
+      "primaryCtaLabel": "Get Started",
+      "secondaryCtaLabel": "Learn More"
+    },
+    "socialProof": {
+    },
+    "valueProps": {
+      "heading": "Everything you need",
+      "subtitle": "Powerful features to help you build and scale",
+      "items": [
+        {
+          "title": "Fast & Reliable",
+          "body": "Built for performance with modern architecture and best practices."
+        },
+        {
+          "title": "Easy Integration",
+          "body": "Connect with your existing tools and workflows seamlessly."
+        },
+        {
+          "title": "24/7 Support",
+          "body": "Get help when you need it with our dedicated support team."
+        }
+      ]
+    },
+    "features": {
+      "heading": "Powerful features",
+      "subtitle": "Everything you need to succeed",
+      "items": [
+        {
+          "title": "Advanced Analytics",
+          "body": "Track your metrics and make data-driven decisions with comprehensive analytics."
+        },
+        {
+          "title": "Team Collaboration",
+          "body": "Work together seamlessly with built-in collaboration tools and workflows."
+        },
+        {
+          "title": "Secure & Compliant",
+          "body": "Enterprise-grade security and compliance to keep your data safe."
+        }
+      ]
+    },
+    "deepDive": {
+      "heading": "How it works",
+      "subtitle": "Get started in minutes with our simple process",
+      "steps": [
+        {
+          "title": "Sign up and connect",
+          "body": "Create your account and connect your existing tools in just a few clicks."
+        },
+        {
+          "title": "Configure your workspace",
+          "body": "Customize your settings and preferences to match your team's workflow."
+        },
+        {
+          "title": "Start collaborating",
+          "body": "Invite your team members and begin working together seamlessly."
+        }
+      ]
+    },
+    "useCases": {
+      "heading": "Use cases",
+      "subtitle": "Perfect for teams of all sizes",
+      "items": [
+        {
+          "title": "Startups",
+          "body": "Get up and running quickly with our streamlined onboarding process."
+        },
+        {
+          "title": "Growing Teams",
+          "body": "Scale effortlessly as your team expands with flexible plans."
+        },
+        {
+          "title": "Enterprise",
+          "body": "Enterprise-grade features and security for large organizations."
+        }
+      ]
+    },
+    "integrations": {
+      "heading": "Integrations",
+      "subtitle": "Works with the tools you already use",
+      "integrations": [
+        { "name": "Slack" },
+        { "name": "GitHub" },
+        { "name": "Jira" },
+        { "name": "Notion" },
+        { "name": "Figma" },
+        { "name": "Linear" }
+      ]
+    },
+    "security": {
+      "heading": "Security & Compliance",
+      "subtitle": "Enterprise-grade protection for your data",
+      "items": [
+        {
+          "title": "Security",
+          "body": "End-to-end encryption and advanced security protocols keep your data safe."
+        },
+        {
+          "title": "Compliance",
+          "body": "Meet industry standards with SOC 2, GDPR, and HIPAA compliance."
+        },
+        {
+          "title": "Reliability",
+          "body": "99.9% uptime SLA with redundant infrastructure and automated backups."
+        }
+      ]
+    },
+    "metrics": {
+      "heading": "Proven results",
+      "subtitle": "See the impact for yourself",
+      "metrics": [
+        {
+          "value": "40%",
+          "label": "Productivity Increase",
+          "description": "Average improvement in team efficiency"
+        },
+        {
+          "value": "27%",
+          "label": "Faster Delivery",
+          "description": "Reduced time to market for new features"
+        },
+        {
+          "value": "98%",
+          "label": "Customer Satisfaction",
+          "description": "Teams love using our platform"
+        }
+      ]
+    },
+    "pricing": {
+      "heading": "Simple pricing",
+      "subtitle": "Choose the plan that works for you",
+      "plans": [
+        {
+          "name": "Starter",
+          "price": "$29",
+          "description": "Perfect for small teams",
+          "features": [
+            "Up to 5 users",
+            "Basic features",
+            "Email support"
+          ],
+          "ctaLabel": "Get Started"
+        },
+        {
+          "name": "Professional",
+          "price": "$99",
+          "description": "For growing businesses",
+          "features": [
+            "Up to 25 users",
+            "Advanced features",
+            "Priority support",
+            "Custom integrations"
+          ],
+          "ctaLabel": "Get Started"
+        },
+        {
+          "name": "Enterprise",
+          "price": "Custom",
+          "description": "For large organizations",
+          "features": [
+            "Unlimited users",
+            "All features",
+            "24/7 support",
+            "Custom solutions"
+          ],
+          "ctaLabel": "Contact Sales"
+        }
+      ]
+    },
+    "faq": {
+      "heading": "Frequently asked questions",
+      "subtitle": "Everything you need to know",
+      "items": [
+        {
+          "question": "How does it work?",
+          "answer": "Our platform integrates seamlessly with your existing tools and workflows, making it easy to get started in minutes."
+        },
+        {
+          "question": "Can I cancel anytime?",
+          "answer": "Yes, you can cancel your subscription at any time with no penalties or fees."
+        },
+        {
+          "question": "Do you offer support?",
+          "answer": "Yes, we offer 24/7 support for all plans, with priority support available on higher tiers."
+        }
+      ]
+    },
+    "testimonials": {
+      "heading": "What our customers say",
+      "subtitle": "Trusted by teams worldwide",
+      "testimonials": [
+        {
+          "quote": "This platform has transformed how our team collaborates. We've seen a 40% increase in productivity since switching.",
+          "name": "Sarah Johnson",
+          "role": "Head of Product, TechCorp",
+          "metric": "+40% productivity"
+        },
+        {
+          "quote": "The best investment we've made this year. The ROI was visible within the first month of implementation.",
+          "name": "Michael Chen",
+          "role": "CTO, StartupXYZ",
+          "metric": "+27% conversion"
+        },
+        {
+          "quote": "Outstanding support and a product that just works. Our team couldn't be happier with the results.",
+          "name": "Emma Williams",
+          "role": "Operations Director, GrowthCo",
+          "metric": "98% satisfaction"
+        }
+      ]
+    },
+    "finalCta": {
+      "heading": "Ready to get started?",
+      "subtitle": "Join thousands of teams already using our platform",
+      "ctaLabel": "Get Started Today"
+    }
+  }
+}
+
