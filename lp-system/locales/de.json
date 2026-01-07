@@ -1,4 +1,227 @@
 {
+  "agency-lp": {
+    "hero": {
+      "eyebrow": "Landing Pages",
+      "title": "High-quality landing pages, built fast",
+      "subtitle": "Professional landing pages designed for conversion and built for speed.",
+      "primaryCtaLabel": "Get Started",
+      "secondaryCtaLabel": "Learn More"
+    },
+    "socialProof": {
+    },
+    "valueProps": {
+      "heading": "Everything you need",
+      "subtitle": "Professional landing pages that convert",
+      "items": [
+        {
+          "title": "Fast Delivery",
+          "body": "Get your landing page live in days, not weeks."
+        },
+        {
+          "title": "Conversion-Focused",
+          "body": "Built with proven patterns that drive results."
+        },
+        {
+          "title": "Fully Responsive",
+          "body": "Perfect on every device, every screen size."
+        }
+      ]
+    },
+    "features": {
+      "heading": "Built for results",
+      "subtitle": "Everything that makes landing pages perform",
+      "items": [
+        {
+          "title": "Conversion-Optimized Structure",
+          "body": "Every section designed to guide visitors toward your goal."
+        },
+        {
+          "title": "Fast Load Times",
+          "body": "Optimized code and assets for instant page loads."
+        },
+        {
+          "title": "Clean, Modern Design",
+          "body": "Professional aesthetics that build trust and engagement."
+        }
+      ]
+    },
+    "deepDive": {
+      "heading": "How it works",
+      "subtitle": "Get your landing page in three simple steps",
+      "steps": [
+        {
+          "title": "Share your requirements",
+          "body": "Tell us what you need and we'll match you with the right structure."
+        },
+        {
+          "title": "We build your page",
+          "body": "Our team builds your landing page with your content and branding."
+        },
+        {
+          "title": "Review and launch",
+          "body": "Review your page, make adjustments, and go live when ready."
+        }
+      ]
+    },
+    "useCases": {
+      "heading": "Perfect for",
+      "subtitle": "Ideal for every stage of growth",
+      "items": [
+        {
+          "title": "Product Launches",
+          "body": "Get a professional landing page fast for your next launch."
+        },
+        {
+          "title": "Marketing Campaigns",
+          "body": "Create dedicated pages for each campaign without the wait."
+        },
+        {
+          "title": "Agencies",
+          "body": "Deliver client work faster with consistent, high-quality pages."
+        }
+      ]
+    },
+    "integrations": {
+      "heading": "Works with your stack",
+      "subtitle": "Easy handoff to your existing tools",
+      "integrations": [
+        { "name": "Vercel" },
+        { "name": "Netlify" },
+        { "name": "CMS" },
+        { "name": "Analytics" },
+        { "name": "Stripe" },
+        { "name": "Email Tools" }
+      ]
+    },
+    "security": {
+      "heading": "Code quality",
+      "subtitle": "Production-ready code you can trust",
+      "items": [
+        {
+          "title": "Clean Codebase",
+          "body": "Well-structured, maintainable code that follows best practices."
+        },
+        {
+          "title": "SEO Optimized",
+          "body": "Built with performance and search visibility in mind."
+        },
+        {
+          "title": "Fully Responsive",
+          "body": "Tested across devices to ensure flawless display everywhere."
+        }
+      ]
+    },
+    "metrics": {
+      "heading": "Proven performance",
+      "subtitle": "Results that speak for themselves",
+      "metrics": [
+        {
+          "value": "40%",
+          "label": "Higher Conversion",
+          "description": "Average increase in conversion rates"
+        },
+        {
+          "value": "3 Days",
+          "label": "Average Build Time",
+          "description": "From brief to live landing page"
+        },
+        {
+          "value": "98%",
+          "label": "Client Satisfaction",
+          "description": "Teams choose us for repeat projects"
+        }
+      ]
+    },
+    "pricing": {
+      "heading": "Simple pricing",
+      "subtitle": "Choose the plan that works for you",
+      "plans": [
+        {
+          "name": "Single Page",
+          "price": "$1,299",
+          "description": "One landing page",
+          "features": [
+            "1 landing page",
+            "Mobile responsive",
+            "Basic revisions",
+            "Source code included"
+          ],
+          "ctaLabel": "Get Started"
+        },
+        {
+          "name": "Package",
+          "price": "$2,999",
+          "description": "Multiple pages",
+          "features": [
+            "3 landing pages",
+            "Custom design options",
+            "Extended revisions",
+            "Priority support"
+          ],
+          "ctaLabel": "Get Started"
+        },
+        {
+          "name": "Enterprise",
+          "price": "Custom",
+          "description": "For agencies and teams",
+          "features": [
+            "Unlimited pages",
+            "Dedicated account manager",
+            "Custom integrations",
+            "Ongoing support"
+          ],
+          "ctaLabel": "Contact Sales"
+        }
+      ]
+    },
+    "faq": {
+      "heading": "Frequently asked questions",
+      "subtitle": "Everything you need to know",
+      "items": [
+        {
+          "question": "How long does it take?",
+          "answer": "Most landing pages are completed within 3-5 business days from final content approval."
+        },
+        {
+          "question": "Can I make changes after delivery?",
+          "answer": "Yes, each plan includes revision rounds. You receive the source code to make updates yourself."
+        },
+        {
+          "question": "What do I need to provide?",
+          "answer": "Content, branding assets, and your goals. We handle design, development, and optimization."
+        }
+      ]
+    },
+    "testimonials": {
+      "heading": "What our customers say",
+      "subtitle": "Trusted by founders and agencies",
+      "testimonials": [
+        {
+          "quote": "We needed a landing page fast for our product launch. They delivered exactly what we needed in three days.",
+          "name": "Sarah Johnson",
+          "role": "Founder, TechCorp",
+          "metric": "40% conversion rate"
+        },
+        {
+          "quote": "The quality is exceptional and the speed is unmatched. Best investment we made this quarter.",
+          "name": "Michael Chen",
+          "role": "Marketing Director, StartupXYZ",
+          "metric": "3x faster launch"
+        },
+        {
+          "quote": "As an agency, we use them for all our client landing pages. Consistent quality every time.",
+          "name": "Emma Williams",
+          "role": "Creative Director, GrowthCo",
+          "metric": "98% client satisfaction"
+        }
+      ]
+    },
+    "finalCta": {
+      "heading": "Ready to get started?",
+      "subtitle": "Join hundreds of teams with high-converting landing pages",
+      "ctaLabel": "Get Started Today"
+    }
+  },
   "example-lp": {
     "hero": {
       "eyebrow": "Landing Pages",
