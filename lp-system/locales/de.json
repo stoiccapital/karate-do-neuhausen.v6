@@ -224,9 +224,9 @@
   },
   "example-lp": {
     "hero": {
-      "eyebrow": "Landing Pages",
-      "title": "Hochwertige Landing Pages, schnell gebaut",
-      "subtitle": "Professionelle Landing Pages für Conversion, schnell umgesetzt.",
+      "eyebrow": "Produktisierte Landing Pages",
+      "title": "Enterprise-Qualität Landing Pages, geliefert in einer Woche",
+      "subtitle": "Produkt-Qualität Landing Pages und Mehrseiten-Websites für Agenturen. Scope vorab definiert, vorhersagbare Lieferung.",
       "primaryCtaLabel": "Loslegen",
       "secondaryCtaLabel": "Mehr erfahren"
     },
@@ -237,16 +237,16 @@
       "subtitle": "Professionelle Landing Pages, die konvertieren",
       "items": [
         {
-          "title": "Schnelle Umsetzung",
-          "body": "Ihre Landing Page geht innerhalb von Tagen, nicht Wochen, online."
+          "title": "Eine Woche Lieferzeit",
+          "body": "Von den Anforderungen bis zur deployeden Website in einer Woche."
         },
         {
-          "title": "Conversion-Optimiert",
-          "body": "Gebaut mit bewährten Mustern, die Ergebnisse liefern."
+          "title": "Konsistentes System",
+          "body": "Enterprise-Qualität Struktur und Muster jedes Mal."
         },
         {
-          "title": "Vollständig Responsive",
-          "body": "Perfekt auf jedem Gerät, jeder Bildschirmgröße."
+          "title": "Performance-Ready",
+          "body": "Optimierter Code, responsive Design, SEO-fähige Struktur."
         }
       ]
     },
@@ -255,52 +255,52 @@
       "subtitle": "Alles, was Landing Pages zum Erfolg führt",
       "items": [
         {
-          "title": "Conversion-Optimierte Struktur",
-          "body": "Jeder Abschnitt ist darauf ausgelegt, Besucher zu Ihrem Ziel zu führen."
+          "title": "Zweisprachiger Copy Inklusive",
+          "body": "Deutscher und englischer Copy standardmäßig enthalten."
         },
         {
-          "title": "Schnelle Ladezeiten",
-          "body": "Optimierter Code und Assets für sofortige Seitenladezeiten."
+          "title": "Performance-Optimierung",
+          "body": "Schnelle Ladezeiten und optimierte Assets von Anfang an."
         },
         {
-          "title": "Klare, moderne Gestaltung",
-          "body": "Professionelle Ästhetik, die Vertrauen schafft und Engagement fördert."
+          "title": "Deployment-Ready",
+          "body": "Deployed und einsatzbereit, Quellcode inklusive."
         }
       ]
     },
     "deepDive": {
       "heading": "Wie es funktioniert",
-      "subtitle": "Erhalten Sie Ihre Landing Page in drei einfachen Schritten",
+      "subtitle": "Eine Woche vom Start bis zum Launch",
       "steps": [
         {
-          "title": "Anforderungen mitteilen",
-          "body": "Teilen Sie uns mit, was Sie benötigen, und wir finden die passende Struktur."
+          "title": "Scope vorab definieren",
+          "body": "Teilen Sie Anforderungen, Ziele und Brand-Assets mit. Scope wird vor Beginn der Arbeit definiert."
         },
         {
-          "title": "Wir bauen Ihre Seite",
-          "body": "Unser Team erstellt Ihre Landing Page mit Ihrem Content und Branding."
+          "title": "Wir bauen in einer Woche",
+          "body": "Ihre Landing Page oder Website wird mit Copy, responsive Design, Dark/Light Mode und Performance-Optimierung gebaut."
         },
         {
-          "title": "Prüfen und veröffentlichen",
-          "body": "Prüfen Sie Ihre Seite, nehmen Sie Anpassungen vor und gehen Sie live, wenn Sie bereit sind."
+          "title": "Eine Revision inklusive, dann Launch",
+          "body": "Prüfen, mit Ihrer inkludierten Revision Anpassungen vornehmen und deployen. Quellcode wird geliefert."
         }
       ]
     },
     "useCases": {
       "heading": "Perfekt für",
-      "subtitle": "Ideal für jede Wachstumsphase",
+      "subtitle": "Gebaut für Agenturen und Teams",
       "items": [
         {
+          "title": "Agenturen",
+          "body": "Liefern Sie Kunden-Websites und Landing Pages mit vorhersagbaren Zeiten und konsistenter Qualität."
+        },
+        {
           "title": "Produktlaunches",
-          "body": "Erhalten Sie schnell eine professionelle Landing Page für Ihren nächsten Launch."
+          "body": "Erhalten Sie eine professionelle Landing Page, geliefert in einer Woche für Ihren Launch."
         },
         {
           "title": "Marketingkampagnen",
-          "body": "Erstellen Sie dedizierte Seiten für jede Kampagne ohne Wartezeit."
-        },
-        {
-          "title": "Agenturen",
-          "body": "Liefern Sie Kundenprojekte schneller mit konsistenten, hochwertigen Seiten."
+          "body": "Erstellen Sie dedizierte Seiten für Kampagnen mit schnellem Turnaround."
         }
       ]
     },
@@ -312,7 +312,7 @@
         { "name": "Netlify" },
         { "name": "CMS" },
         { "name": "Analytics" },
-        { "name": "Stripe" },
+        { "name": "Zahlungen" },
         { "name": "E-Mail-Tools" }
       ]
     },
@@ -321,16 +321,16 @@
       "subtitle": "Produktionsreifer Code, dem Sie vertrauen können",
       "items": [
         {
-          "title": "Saubere Codebasis",
-          "body": "Wohlstrukturierter, wartbarer Code, der Best Practices folgt."
+          "title": "Enterprise-Qualität Code",
+          "body": "Wohlstrukturierter, wartbarer Code nach Best Practices."
         },
         {
-          "title": "SEO-Optimiert",
-          "body": "Gebaut mit Fokus auf Performance und Sichtbarkeit in Suchmaschinen."
+          "title": "SEO-fähige Struktur",
+          "body": "Gebaut mit Fokus auf Sichtbarkeit und Performance-Optimierung."
         },
         {
-          "title": "Vollständig Responsive",
-          "body": "Auf allen Geräten getestet für fehlerfreie Darstellung überall."
+          "title": "Responsive + Dark/Light Mode",
+          "body": "Auf allen Geräten getestet mit Theme-Support inklusive."
         }
       ]
     },
@@ -339,19 +339,19 @@
       "subtitle": "Ergebnisse, die für sich sprechen",
       "metrics": [
         {
-          "value": "40%",
-          "label": "Höhere Conversion",
-          "description": "Durchschnittliche Steigerung der Conversion-Raten"
+          "value": "7 Tage",
+          "label": "Durchschnittliche Lieferzeit",
+          "description": "Vom Kickoff bis zum Deployment"
         },
         {
-          "value": "3 Tage",
-          "label": "Durchschnittliche Build-Zeit",
-          "description": "Vom Briefing bis zur Live-Landing-Page"
+          "value": "100 %",
+          "label": "Definierter Scope",
+          "description": "Keine Überraschungen im Projektverlauf"
         },
         {
-          "value": "98%",
-          "label": "Kundenzufriedenheit",
-          "description": "Teams wählen uns für wiederholte Projekte"
+          "value": "0 Tage",
+          "label": "Deployment-Standard",
+          "description": "Kein zusätzlicher Vorbereitungsaufwand"
         }
       ]
     },
@@ -361,37 +361,37 @@
       "plans": [
         {
           "name": "Einzelne Seite",
-          "price": "1.299€",
+          "price": "990€",
           "description": "Eine Landing Page",
           "features": [
             "1 Landing Page",
-            "Mobile responsive",
-            "Basis-Revisionen",
+            "1 Revision inklusive",
+            "Deployment inklusive",
             "Quellcode inklusive"
           ],
           "ctaLabel": "Loslegen"
         },
         {
           "name": "Paket",
-          "price": "2.999€",
-          "description": "Mehrere Seiten",
+          "price": "2.490€",
+          "description": "3 Seiten",
           "features": [
-            "3 Landing Pages",
-            "Individuelle Design-Optionen",
-            "Erweiterte Revisionen",
-            "Prioritäts-Support"
+            "3 Seiten",
+            "1 Revision inklusive",
+            "Deployment inklusive",
+            "Quellcode inklusive"
           ],
           "ctaLabel": "Loslegen"
         },
         {
           "name": "Enterprise",
           "price": "Individuell",
-          "description": "Für Agenturen und Teams",
+          "description": "Individueller Scope",
           "features": [
-            "Unbegrenzte Seiten",
-            "Dedizierter Account Manager",
-            "Individuelle Integrationen",
-            "Laufender Support"
+            "Individueller Scope",
+            "Scope vorab definiert",
+            "Deployment inklusive",
+            "Quellcode inklusive"
           ],
           "ctaLabel": "Verkauf kontaktieren"
         }
@@ -403,15 +403,15 @@
       "items": [
         {
           "question": "Wie lange dauert es?",
-          "answer": "Die meisten Landing Pages sind innerhalb von 3-5 Werktagen nach finaler Content-Freigabe fertig."
+          "answer": "Typische Zeitschiene ist eine Woche von den Anforderungen bis zum Deployment."
         },
         {
           "question": "Kann ich nach der Übergabe Änderungen vornehmen?",
-          "answer": "Ja, jeder Plan enthält Revisionsrunden. Sie erhalten den Quellcode, um Updates selbst vorzunehmen."
+          "answer": "Eine Revision ist inklusive. Zusätzliche Revisionen kosten 100 € pro Revision. Sie erhalten auch den Quellcode, um Updates selbst vorzunehmen."
         },
         {
           "question": "Was muss ich bereitstellen?",
-          "answer": "Content, Branding-Assets und Ihre Ziele. Wir übernehmen Design, Entwicklung und Optimierung."
+          "answer": "Anforderungen, Ziele und Brand-Assets. Falls nötig, Zugriff für Deployment. Wir übernehmen Design, Entwicklung und Optimierung."
         }
       ]
     },
@@ -420,29 +420,29 @@
       "subtitle": "Vertraut von Gründern und Agenturen",
       "testimonials": [
         {
-          "quote": "Wir brauchten schnell eine Landing Page für unseren Produktlaunch. Sie haben genau das geliefert, was wir brauchten, in drei Tagen.",
+          "quote": "Wir brauchten schnell eine Landing Page für unseren Produktlaunch. Sie haben genau das geliefert, was wir brauchten, pünktlich.",
           "name": "Sarah Johnson",
-          "role": "Gründerin, TechCorp",
-          "metric": "40% Conversion-Rate"
+          "role": "Gründerin",
+          "metric": "Schnelle Lieferung"
         },
         {
           "quote": "Die Qualität ist außergewöhnlich und die Geschwindigkeit ist unübertroffen. Die beste Investition dieses Quartal.",
           "name": "Michael Chen",
-          "role": "Marketing-Direktor, StartupXYZ",
-          "metric": "3x schnellerer Launch"
+          "role": "Marketing-Direktor",
+          "metric": "Vorhersagbarer Scope"
         },
         {
           "quote": "Als Agentur nutzen wir sie für alle Kunden-Landing-Pages. Konsistente Qualität jedes Mal.",
           "name": "Emma Williams",
-          "role": "Creative Director, GrowthCo",
-          "metric": "98% Kundenzufriedenheit"
+          "role": "Creative Director",
+          "metric": "Performance-Ready"
         }
       ]
     },
     "finalCta": {
       "heading": "Bereit loszulegen?",
-      "subtitle": "Schließen Sie sich Hunderten von Teams mit hochkonvertierenden Landing Pages an",
-      "ctaLabel": "Heute loslegen"
+      "subtitle": "Erhalten Sie Ihre Landing Page oder Website geliefert in einer Woche",
+      "ctaLabel": "Loslegen"
     }
   }
 }

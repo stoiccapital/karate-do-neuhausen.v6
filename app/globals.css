@@ -9,6 +9,8 @@
   --text-primary: rgb(18 24 38); /* Crisp, readable primary text */
   --text-secondary: rgb(55 70 90); /* Clearly distinct secondary text */
   --text-muted: rgb(85 100 120); /* Readable muted text with clear hierarchy */
+  --icon-primary: rgb(18 24 38); /* Icon primary color - dark in light mode */
+  --icon-secondary: rgb(55 70 90); /* Icon secondary color - muted dark in light mode */
   --border-subtle: rgb(218 225 235); /* Visible borders for cards/dividers */
   --border-strong: rgb(175 190 210); /* Stronger borders for hover states */
   --ring-color: rgb(59 130 246); /* Blue-500 for visible focus rings on light background */
@@ -34,6 +36,8 @@ html.dark {
   --text-primary: rgb(248 250 252); /* slate-50 */
   --text-secondary: rgb(226 232 240); /* slate-200 */
   --text-muted: rgb(148 163 184); /* slate-400 */
+  --icon-primary: rgb(248 250 252); /* Icon primary color - light in dark mode */
+  --icon-secondary: rgb(226 232 240); /* Icon secondary color - muted light in dark mode */
   --border-subtle: rgba(255, 255, 255, 0.1);
   --border-strong: rgba(255, 255, 255, 0.2); /* Stronger borders for hover states in dark mode */
   --ring-color: rgba(255, 255, 255, 0.5); /* white/50 for focus rings */
@@ -100,6 +104,14 @@ body {
   
   .text-text-muted {
     color: var(--text-muted);
+  }
+  
+  .text-icon-primary {
+    color: var(--icon-primary);
+  }
+  
+  .text-icon-secondary {
+    color: var(--icon-secondary);
   }
   
   .border-border-subtle {

@@ -2,7 +2,9 @@ import React from 'react';
 import type { SectionValuePropsCopy } from '../config/types';
 import { CenteredLayout } from '../components/layouts/CenteredLayout';
 import { FeatureCard } from '../components/ui/FeatureCard';
-import { spacing, typography, colors, globalBackground, ColorTheme } from '../config/design-system';
+import { Icon } from '../components/ui/Icon';
+import { CalendarIcon, SettingsIcon, ChartIcon } from '../components/icons';
+import { spacing, typography, globalBackground, ColorTheme } from '../config/design-system';
 
 export type ValuePropsProps = {
   copy: SectionValuePropsCopy;
@@ -18,15 +20,44 @@ export type ValuePropsProps = {
  * Grid: 3 columns on desktop, 1 on mobile, gaps via grid tokens
  */
 export function ValueProps({ copy, theme }: ValuePropsProps) {
-  const featureCards = copy.items.map((item, index) => (
-    <FeatureCard
-      key={index}
-      icon={<div className={`${typography.textXs}`}>⚡</div>}
-      title={item.title}
-      body={item.body}
-      theme={theme}
-    />
-  ));
+  const featureCards = copy.items.map((item, index) => {
+    const isDeliveryItem = item.title === 'One Week Delivery' || item.title === 'Eine Woche Lieferzeit';
+    const isConsistentSystemItem = item.title === 'Consistent System' || item.title === 'Konsistentes System';
+    const isPerformanceReadyItem = item.title === 'Performance Ready' || item.title === 'Performance-Ready';
+    
+    let icon;
+    if (isDeliveryItem) {
+      icon = (
+        <Icon>
+          <CalendarIcon />
+        </Icon>
+      );
+    } else if (isConsistentSystemItem) {
+      icon = (
+        <Icon>
+          <SettingsIcon />
+        </Icon>
+      );
+    } else if (isPerformanceReadyItem) {
+      icon = (
+        <Icon>
+          <ChartIcon />
+        </Icon>
+      );
+    } else {
+      icon = <div className={`${typography.textXs}`}>⚡</div>;
+    }
+    
+    return (
+      <FeatureCard
+        key={index}
+        icon={icon}
+        title={item.title}
+        body={item.body}
+        theme={theme}
+      />
+    );
+  });
 
   return (
     <section id="value-props" data-section-id="value-props" className={`${spacing.section.y.xl} ${globalBackground.neutral.darkest}`}>

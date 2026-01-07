@@ -20,6 +20,10 @@ const config: Config = {
           secondary: 'var(--text-secondary)',
           muted: 'var(--text-muted)',
         },
+        icon: {
+          primary: 'var(--icon-primary)',
+          secondary: 'var(--icon-secondary)',
+        },
         border: {
           subtle: 'var(--border-subtle)',
         },

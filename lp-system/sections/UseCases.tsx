@@ -2,7 +2,9 @@ import React from 'react';
 import type { SectionUseCasesCopy } from '../config/types';
 import { CenteredLayout } from '../components/layouts/CenteredLayout';
 import { FeatureCard } from '../components/ui/FeatureCard';
-import { spacing, typography, colors, globalBackground, ColorTheme } from '../config/design-system';
+import { Icon } from '../components/ui/Icon';
+import { AgenciesIcon, ProductLaunchIcon, MarketingCampaignsIcon } from '../components/icons';
+import { spacing, typography, globalBackground, ColorTheme } from '../config/design-system';
 
 export type UseCasesProps = {
   copy: SectionUseCasesCopy;
@@ -23,15 +25,44 @@ export function UseCases({ copy, theme }: UseCasesProps) {
     { title: 'Use Case 3', body: 'Designed for success' },
   ];
 
-  const useCaseItems = items.map((item, index) => (
-    <FeatureCard
-      key={index}
-      icon={<div className={`${typography.textXs}`}>⚡</div>}
-      title={item.title}
-      body={item.body}
-      theme={theme}
-    />
-  ));
+  const useCaseItems = items.map((item, index) => {
+    const isAgenciesItem = item.title === 'Agencies' || item.title === 'Agenturen';
+    const isProductLaunchItem = item.title === 'Product Launches' || item.title === 'Produktlaunches';
+    const isMarketingCampaignsItem = item.title === 'Marketing Campaigns' || item.title === 'Marketingkampagnen';
+    
+    let icon;
+    if (isAgenciesItem) {
+      icon = (
+        <Icon>
+          <AgenciesIcon />
+        </Icon>
+      );
+    } else if (isProductLaunchItem) {
+      icon = (
+        <Icon>
+          <ProductLaunchIcon />
+        </Icon>
+      );
+    } else if (isMarketingCampaignsItem) {
+      icon = (
+        <Icon>
+          <MarketingCampaignsIcon />
+        </Icon>
+      );
+    } else {
+      icon = <div className={`${typography.textXs}`}>⚡</div>;
+    }
+    
+    return (
+      <FeatureCard
+        key={index}
+        icon={icon}
+        title={item.title}
+        body={item.body}
+        theme={theme}
+      />
+    );
+  });
 
   return (
     <section id="use-cases" data-section-id="use-cases" className={`${spacing.section.y.xl} ${globalBackground.neutral.darkest}`}>

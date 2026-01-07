@@ -1,50 +1,66 @@
-import React from 'react';
-import type { SectionMetricsCopy } from '../config/types';
-import { CenteredLayout } from '../components/layouts/CenteredLayout';
-import { spacing, typography, colors, globalBackground, ColorTheme } from '../config/design-system';
+"use client";
+
+import React from "react";
+import type { SectionMetricsCopy } from "../config/types";
+import { CenteredLayout } from "../components/layouts/CenteredLayout";
+import {
+  spacing,
+  typography,
+  globalBackground,
+  ColorTheme,
+} from "../config/design-system";
 
 export type MetricsProps = {
   copy: SectionMetricsCopy;
   theme: ColorTheme;
 };
 
-/**
- * Metrics Section
- * Layout: CenteredLayout or SingleColumn + grid of numeric metrics
- * Headline/subtitle: left or center depending on copy; prefer left by default
- * Each metric: value + label, left aligned
- */
-export function Metrics({ copy, theme }: MetricsProps) {
-  const themeColors = colors[theme];
+function normalizeText(s: string): string {
+  return s.replace(/\s+/g, " ").trim();
+}
 
-  const metricItems = copy.metrics.map((metric, index) => (
-    <div key={index} className={`text-left ${spacing.block.y.md}`}>
-      <div className={`${typography.h1} ${theme === 'dark' ? colors.dark.accent.primary : themeColors.accent.primary}`}>
-        {metric.value}
-      </div>
-      <h3 className={`${typography.h3} text-text-primary`}>
-        {metric.label}
-      </h3>
-      <p className={`${typography.body} text-text-secondary`}>
-        {metric.description}
-      </p>
-    </div>
-  ));
+export function Metrics({ copy }: MetricsProps) {
+  const gridColsClass =
+    copy.metrics.length === 4 ? "md:grid-cols-4" : "md:grid-cols-3";
 
   return (
-    <section id="metrics" className={`${spacing.section.y.xl} ${globalBackground.neutral.darkest}`}>
+    <section
+      id="metrics"
+      data-section-id="metrics"
+      className={`${spacing.section.y.xl} ${globalBackground.neutral.darkest}`}
+    >
       <CenteredLayout>
         <h2 className={`${typography.h2} text-text-primary ${spacing.block.y.md}`}>
-          {copy.heading}
+          {normalizeText(copy.heading)}
         </h2>
+
         <p className={`${typography.body} text-text-secondary ${spacing.block.y.md}`}>
-          {copy.subtitle}
+          {normalizeText(copy.subtitle)}
         </p>
-        <div className={`grid grid-cols-1 md:grid-cols-${copy.metrics.length === 4 ? '4' : '3'} ${spacing.grid.x.md} ${spacing.grid.y.md}`}>
-          {metricItems}
+
+        <div
+          className={`grid grid-cols-1 ${gridColsClass} ${spacing.grid.x.md} ${spacing.grid.y.md}`}
+        >
+          {copy.metrics.map((metric, index) => (
+            <div key={index} className="text-left">
+              {/* VALUE */}
+              <div className={`${typography.h1} text-text-primary ${spacing.block.y.md}`}>
+                {normalizeText(metric.value)}
+              </div>
+
+              {/* LABEL */}
+              <h3 className={`${typography.h3} text-text-primary ${spacing.block.y.md}`}>
+                {normalizeText(metric.label)}
+              </h3>
+
+              {/* DESCRIPTION */}
+              <p className={`${typography.body} text-text-secondary`}>
+                {normalizeText(metric.description)}
+              </p>
+            </div>
+          ))}
         </div>
       </CenteredLayout>
     </section>
   );
 }
-

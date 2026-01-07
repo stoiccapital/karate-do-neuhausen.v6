@@ -5,6 +5,7 @@ import { getMessages } from '../locales';
 import { Navbar } from '../components/Navbar';
 import { Footer } from '../components/Footer';
 import { Hero } from '../sections/Hero';
+import { HeroAgencyLp } from '../sections/HeroAgencyLp';
 import { SocialProof } from '../sections/SocialProof';
 import { ValueProps } from '../sections/ValueProps';
 import { Features } from '../sections/Features';
@@ -22,6 +23,7 @@ export type LandingPageTemplateProps = {
   theme: ThemeName;
   copy: PageCopyConfig;
   locale: 'en' | 'de';
+  lpId?: string;
 };
 
 /**
@@ -45,9 +47,11 @@ export function LandingPageTemplate({
   theme,
   copy,
   locale,
+  lpId,
 }: LandingPageTemplateProps) {
   const themeConfig = themes[theme];
   const messages = getMessages(locale);
+  const useAgencyHero = lpId === 'agency-lp';
 
   return (
     <div className={`min-h-screen ${themeConfig.background} ${themeConfig.font}`}>
@@ -57,7 +61,11 @@ export function LandingPageTemplate({
       {/* Main content */}
       <main>
       {/* 2. Hero */}
-      <Hero copy={copy.hero} theme={theme} />
+      {useAgencyHero ? (
+        <HeroAgencyLp copy={copy.hero} theme={theme} />
+      ) : (
+        <Hero copy={copy.hero} theme={theme} />
+      )}
       
       {/* 3. Social Proof */}
       <SocialProof copy={copy.socialProof} theme={theme} />

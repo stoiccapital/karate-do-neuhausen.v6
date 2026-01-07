@@ -30,7 +30,8 @@ export default async function LocalePage({ params }: Props) {
     <LandingPageTemplate 
       theme={theme} 
       copy={copy} 
-      locale={locale} 
+      locale={locale}
+      lpId={FIXED_LP_ID}
     />
   );
 }

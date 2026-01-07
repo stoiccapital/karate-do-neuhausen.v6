@@ -28,7 +28,6 @@ export function FeatureCard({ icon, title, body, theme, className = '' }: Featur
           w-12 h-12
           flex items-center justify-center
           ${spacing.block.y.sm}
-          ${isDark ? colors.dark.accent.primary : themeColors.accent.primary}
           ${components.transition.default}
           hover:bg-bg-neutral
         `}>

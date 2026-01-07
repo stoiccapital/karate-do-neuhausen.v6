@@ -92,6 +92,13 @@ export const spacing = {
       md: 'min-w-[120px]', // Minimum width for logo cell
     },
   },
+  // Metrics section slot heights and spacing
+  metricsSlots: {
+    value: 'h-24 md:h-28 lg:h-32',
+    label: 'h-14 md:h-16',
+    desc: 'h-12',
+    stack: 'gap-y-4',
+  },
 } as const;
 
 // ============================================================================

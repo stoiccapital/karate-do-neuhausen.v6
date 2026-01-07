@@ -7,24 +7,30 @@ import { SplitGrid } from '../components/layouts/SplitGrid';
 import { CenteredLayout } from '../components/layouts/CenteredLayout';
 import { spacing, typography, maxTextWidth, globalBackground, ColorTheme } from '../config/design-system';
 
-export type HeroProps = {
+export type HeroAgencyLpProps = {
   copy: SectionHeroCopy;
   theme: ColorTheme;
 };
 
 /**
- * Hero Section
- * Layout: SplitGrid
+ * Hero Section for Agency Landing Page
+ * Layout: SplitGrid (text left, preview mock right)
  * Alignment: Text column LEFT aligned
  * Section spacing: Top section.y.2xl, Bottom section.y.2xl
  * Internal spacing: H1 → subtitle block.y.md, Subtitle → CTAGroup block.y.md
+ * Visual: Premium landing page preview mock on the right
  */
-export function Hero({ copy, theme }: HeroProps) {
+export function HeroAgencyLp({ copy, theme }: HeroAgencyLpProps) {
   return (
     <section id="hero" data-section-id="hero" className={`${spacing.section.y['2xl']} ${globalBackground.neutral.darkest}`}>
       <CenteredLayout>
         <SplitGrid>
           <div className="text-left">
+            {copy.eyebrow && (
+              <div className={`${typography.label} text-text-muted ${spacing.block.y.sm}`}>
+                {copy.eyebrow}
+              </div>
+            )}
             <h1 className={`${typography.h1} text-text-primary ${spacing.block.y.md}`}>
               {copy.title}
             </h1>
@@ -48,3 +54,4 @@ export function Hero({ copy, theme }: HeroProps) {
     </section>
   );
 }
+
