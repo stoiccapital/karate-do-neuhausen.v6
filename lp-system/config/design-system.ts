@@ -328,6 +328,10 @@ export const components = {
     // Tokenized media overlay (gradient option)
     overlay: 'before:absolute before:inset-0 before:bg-gradient-to-b before:from-white/5 before:to-transparent before:pointer-events-none before:z-[1]',
   },
+  // Mock component tokens
+  mock: {
+    heroCanvasHeight: 'h-96', // Fixed height for hero mock scrollable canvas (~384px)
+  },
   shadow: {
     surface1: 'shadow-sm',
     surface2: 'shadow-md',

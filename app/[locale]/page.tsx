@@ -1,10 +1,15 @@
-import { cookies } from 'next/headers';
 import { loadPageCopy } from '../../lp-system/locales';
 import { LandingPageTemplate } from '../../lp-system/templates/LandingPage';
-import { THEME_COOKIE_KEY, isValidTheme, type Theme } from '../../lp-system/config/preferences';
+import { DEFAULT_THEME, LOCALES } from '../../lp-system/config/preferences';
 import { DEFAULT_LP_ID } from '../../lp-system/config/lp-config';
 
 const FIXED_LP_ID = DEFAULT_LP_ID;
+
+export function generateStaticParams() {
+  return LOCALES.map((locale) => ({
+    locale,
+  }));
+}
 
 type Props = {
   params: Promise<{ locale: 'en' | 'de' }>;
@@ -18,13 +23,8 @@ export default async function LocalePage({ params }: Props) {
     throw new Error(`Copy not found for LP ID: ${FIXED_LP_ID} and locale: ${locale}`);
   }
 
-  // Read theme from cookie, but fallback to default theme
-  const cookieStore = await cookies();
-  const themeCookie = cookieStore.get(THEME_COOKIE_KEY);
-  let theme: Theme = 'light';
-  if (themeCookie?.value && isValidTheme(themeCookie.value)) {
-    theme = themeCookie.value;
-  }
+  // For static export, use default theme (theme switching will be handled client-side)
+  const theme = DEFAULT_THEME;
 
   return (
     <LandingPageTemplate 

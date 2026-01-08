@@ -2,7 +2,7 @@ import React from 'react';
 import type { SectionFeaturesCopy } from '../config/types';
 import { SplitGrid } from '../components/layouts/SplitGrid';
 import { SingleColumn } from '../components/layouts/SingleColumn';
-import { ValuePropMock, type ValuePropMockKind } from '../components/ui/ValuePropMocks';
+import { ValuePropMock, type ValuePropMockKind } from '../components/ui/mocks';
 import { spacing, typography, maxTextWidth, globalBackground, ColorTheme } from '../config/design-system';
 
 export type FeaturesProps = {

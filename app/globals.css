@@ -64,6 +64,24 @@ body {
   color: var(--text-primary);
 }
 
+/* Global cursor rules for clickable elements */
+@layer base {
+  button,
+  a,
+  [role="button"],
+  input[type="button"],
+  input[type="submit"],
+  input[type="reset"] {
+    cursor: pointer;
+  }
+
+  /* Disabled state exception */
+  button:disabled,
+  [aria-disabled="true"] {
+    cursor: not-allowed;
+  }
+}
+
 /* Semantic utility mappings - guarantee classes produce real colors */
 @layer utilities {
   .bg-bg-default {
