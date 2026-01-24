@@ -17,15 +17,17 @@ export type FAQItemProps = {
 export function FAQItem({ theme, question, answer, index }: FAQItemProps) {
   const themeColors = colors[theme];
   const isDark = theme === 'dark';
+  const questionTypography = typography.body;
+  const answerTypography = questionTypography;
 
   return (
-    <details className={spacing.block.y.lg}>
+    <details className={`border-b ${themeColors.border.subtle}`}>
       <summary 
-        className="w-full flex items-center justify-between cursor-pointer list-none hover:text-link-hover transition-colors"
+        className="w-full flex items-center justify-between cursor-pointer list-none hover:text-link-hover transition-colors py-4 text-left"
         aria-expanded="false"
         aria-controls={`faq-answer-${index}`}
       >
-        <h3 className={`${typography.h3} text-text-primary`}>
+        <h3 className={`${questionTypography} font-semibold text-text-primary`}>
           {question}
         </h3>
         <svg
@@ -45,15 +47,14 @@ export function FAQItem({ theme, question, answer, index }: FAQItemProps) {
       </summary>
       <div 
         id={`faq-answer-${index}`}
-        className={spacing.block.y.md}
+        className="pt-2 pb-4"
         role="region"
         aria-hidden="true"
       >
-        <p className={`${typography.body} text-text-secondary`}>
+        <p className={`${answerTypography} text-text-secondary`}>
           {answer}
         </p>
       </div>
-      <div className={`w-full border-t ${spacing.block.y.sm} border-border-subtle`} />
     </details>
   );
 }

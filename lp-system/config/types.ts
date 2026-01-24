@@ -11,6 +11,7 @@ export type SectionSocialProofCopy = {
 };
 
 export type SectionValuePropsCopy = {
+  eyebrow?: string;
   heading: string;
   subtitle: string;
   items: {
@@ -20,24 +21,67 @@ export type SectionValuePropsCopy = {
 };
 
 export type SectionFeaturesCopy = {
+  eyebrow?: string;
   heading: string;
   subtitle: string;
   items: {
+    eyebrow?: string;
     title: string;
     body: string;
   }[];
 };
 
+export type BillingMode = 'monthly' | 'yearly';
+
+export type PricingPlanCopy = {
+  id: string;
+  title: string;
+  body: string;
+  billing: {
+    monthly: {
+      price: string;
+      detail: string;
+      subPrice?: string;
+    };
+    yearly: {
+      price: string;
+      detail: string;
+      subPrice?: string;
+    };
+  };
+  features: string[];
+  singleUser: {
+    monthly: string;
+    yearly: string;
+  };
+  ctaLabel: string;
+  isPopular?: boolean;
+};
+
 export type SectionPricingCopy = {
   heading: string;
   subtitle: string;
-  plans: {
-    name: string;
-    price: string;
-    description: string;
-    features: string[];
-    ctaLabel: string;
-  }[];
+  helper?: string;
+  singleUserLabel?: string;
+  singleUserTitle?: string;
+  billingToggle?: {
+    label: string;
+    monthly: string;
+    yearly: string;
+    yearlyBadge?: string;
+  };
+  singleUserLabels?: {
+    monthly: string;
+    yearly: string;
+  };
+  footerNote?: string;
+  // Pricing content contract:
+  // - body should be one short sentence (max ~60–80 chars)
+  // - features should ideally have exactly 4 items
+  // - each feature = verb + object (no multi-sentence bullets)
+  // - teamPrice formatted as "€XXX / month" or "XXX € / Monat"
+  // - singleUser.monthly/yearly follow the same pattern across plans
+  plans: PricingPlanCopy[];
 };
 
 export type SectionFAQCopy = {
@@ -58,15 +102,20 @@ export type SectionFinalCtaCopy = {
 export type SectionTestimonialsCopy = {
   heading: string;
   subtitle: string;
+  labels?: {
+    customer: string;
+    outcome: string;
+    description: string;
+  };
   testimonials: {
-    quote: string;
-    name: string;
-    role: string;
-    metric?: string;
+    customer: string;
+    outcome: string;
+    description: string;
   }[];
 };
 
 export type SectionDeepDiveCopy = {
+  eyebrow?: string;
   heading: string;
   subtitle: string;
   steps: {
@@ -85,6 +134,7 @@ export type SectionUseCasesCopy = {
 };
 
 export type SectionIntegrationsCopy = {
+  eyebrow?: string;
   heading: string;
   subtitle: string;
   integrations: {

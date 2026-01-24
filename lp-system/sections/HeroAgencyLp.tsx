@@ -1,8 +1,10 @@
+'use client';
+
 import React from 'react';
 import type { SectionHeroCopy } from '../config/types';
 import { CTAButton } from '../components/ui/CTAButton';
 import { CTAGroup } from '../components/ui/CTAGroup';
-import { HeroLpPreviewMock } from '../components/ui/mocks';
+import { DashboardMock } from '../components/ui/mocks';
 import { SplitGrid } from '../components/layouts/SplitGrid';
 import { CenteredLayout } from '../components/layouts/CenteredLayout';
 import { spacing, typography, maxTextWidth, globalBackground, ColorTheme } from '../config/design-system';
@@ -21,6 +23,13 @@ export type HeroAgencyLpProps = {
  * Visual: Premium landing page preview mock on the right
  */
 export function HeroAgencyLp({ copy, theme }: HeroAgencyLpProps) {
+  const handleSecondaryCtaClick = () => {
+    const element = document.getElementById('pricing');
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
   return (
     <section id="hero" data-section-id="hero" className={`${spacing.section.y['2xl']} ${globalBackground.neutral.darkest}`}>
       <CenteredLayout>
@@ -43,12 +52,17 @@ export function HeroAgencyLp({ copy, theme }: HeroAgencyLpProps) {
               <CTAGroup align="left" stack="horizontal">
                 <CTAButton variant="primary" theme={theme} label={copy.primaryCtaLabel} />
                 {copy.secondaryCtaLabel && (
-                  <CTAButton variant="ghost" theme={theme} label={copy.secondaryCtaLabel} />
+                  <CTAButton
+                    variant="ghost"
+                    theme={theme}
+                    label={copy.secondaryCtaLabel}
+                    onClick={handleSecondaryCtaClick}
+                  />
                 )}
               </CTAGroup>
             </div>
           </div>
-          <HeroLpPreviewMock variant="single" />
+          <DashboardMock />
         </SplitGrid>
       </CenteredLayout>
     </section>

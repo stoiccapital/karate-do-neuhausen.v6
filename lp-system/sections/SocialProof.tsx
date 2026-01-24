@@ -2,7 +2,7 @@ import React from 'react';
 import type { SectionSocialProofCopy } from '../config/types';
 import { CenteredLayout } from '../components/layouts/CenteredLayout';
 import { LogoGrid } from '../components/ui/LogoGrid';
-import { spacing, typography, colors, globalBackground, ColorTheme } from '../config/design-system';
+import { spacing, typography, globalBackground, ColorTheme } from '../config/design-system';
 
 export type SocialProofProps = {
   copy: SectionSocialProofCopy;
@@ -17,13 +17,22 @@ export type SocialProofProps = {
  * Internal: H2 → subtitle block.y.md, Subtitle → LogoGrid block.y.lg
  */
 export function SocialProof({ copy, theme }: SocialProofProps) {
-  const logos = Array.from({ length: 8 }, (_, i) => ({ src: undefined, alt: `Logo ${i + 1}` }));
+  const logos = [
+    { src: undefined, alt: 'AC Transfer GmbH' },
+    { src: undefined, alt: 'Muhammed GmbH' },
+    { src: undefined, alt: 'RheinTransfers GmbH' },
+    { src: undefined, alt: 'CounterTime GmbH' },
+    { src: undefined, alt: '9PM GmbH' },
+    { src: undefined, alt: 'Drosselklappe GmbH' },
+    { src: undefined, alt: 'MK28 GmbH' },
+    { src: undefined, alt: 'YourCar GmbH' },
+  ];
 
   const heading = copy.label ? (
     <div className={spacing.block.y.md}>
-      <h2 className={`${typography.h2} text-text-primary`}>
+      <div className={`${typography.label} text-text-muted`}>
         {copy.label}
-      </h2>
+      </div>
     </div>
   ) : null;
 
