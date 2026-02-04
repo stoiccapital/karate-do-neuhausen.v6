@@ -223,7 +223,13 @@ export type LegalPageCopy = {
   };
 };
 
+export type PageMetadata = {
+  title: string;
+  description: string;
+};
+
 export type PageCopyConfig = {
+  metadata?: PageMetadata;
   navbar?: NavbarCopy;
   hero: SectionHeroCopy;
   socialProof: SectionSocialProofCopy;

@@ -4,7 +4,7 @@ import { DEFAULT_THEME } from "../lp-system/config/preferences";
 
 export const metadata: Metadata = {
   title: "Karate Do Neuhausen",
-  description: "Traditionelles Shotokan-Karate für Kinder, Jugendliche und Erwachsene in München",
+  description: "Traditional Shotokan Karate",
 };
 
 export default function RootLayout({

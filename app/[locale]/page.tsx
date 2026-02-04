@@ -1,3 +1,4 @@
+import type { Metadata } from 'next';
 import { loadPageCopy } from '../../lp-system/locales';
 import { LandingPageTemplate } from '../../lp-system/templates/LandingPage';
 import { DEFAULT_THEME, LOCALES } from '../../lp-system/config/preferences';
@@ -14,6 +15,16 @@ export function generateStaticParams() {
 type Props = {
   params: Promise<{ locale: 'en' | 'de' }>;
 };
+
+export async function generateMetadata({ params }: Props): Promise<Metadata> {
+  const { locale } = await params;
+  const copy = loadPageCopy(locale, FIXED_LP_ID);
+  
+  return {
+    title: copy?.metadata?.title || 'Karate Do Neuhausen',
+    description: copy?.metadata?.description || 'Traditional Shotokan Karate',
+  };
+}
 
 export default async function LocalePage({ params }: Props) {
   const { locale } = await params;
