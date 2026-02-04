@@ -7,6 +7,7 @@ import { CTAGroup } from '../components/ui/CTAGroup';
 import { CenteredLayout } from '../components/layouts/CenteredLayout';
 import { SplitGrid } from '../components/layouts/SplitGrid';
 import { spacing, typography, maxTextWidth, globalBackground, components, ColorTheme } from '../config/design-system';
+import { WHATSAPP_LINK } from '../config/lp-config';
 
 export type HeroProps = {
   copy: SectionHeroCopy;
@@ -21,8 +22,12 @@ export type HeroProps = {
  * Internal spacing: H1 → subtitle block.y.md, Subtitle → CTAGroup block.y.md
  */
 export function Hero({ copy, theme }: HeroProps) {
+  const handlePrimaryCtaClick = () => {
+    window.location.href = WHATSAPP_LINK;
+  };
+
   const handleSecondaryCtaClick = () => {
-    const element = document.getElementById('pricing');
+    const element = document.getElementById('metrics');
     if (element) {
       element.scrollIntoView({ behavior: 'smooth' });
     }
@@ -43,7 +48,7 @@ export function Hero({ copy, theme }: HeroProps) {
             )}
             <div className={spacing.block.y.md}>
               <CTAGroup align="left" stack="horizontal">
-                <CTAButton variant="primary" theme={theme} label={copy.primaryCtaLabel} />
+                <CTAButton variant="primary" theme={theme} label={copy.primaryCtaLabel} onClick={handlePrimaryCtaClick} />
                 {copy.secondaryCtaLabel && (
                   <CTAButton
                     variant="ghost"

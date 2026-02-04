@@ -1,7 +1,10 @@
+'use client';
+
 import React from 'react';
 import { spacing, typography, colors, components, ColorTheme } from '../../config/design-system';
 import { CTAButton } from './CTAButton';
 import type { BillingMode } from '../../config/types';
+import { WHATSAPP_LINK } from '../../config/lp-config';
 
 export type PricingCardProps = {
   title: string;
@@ -117,7 +120,14 @@ export function PricingCard(props: PricingCardProps) {
       </div>
       
       <div className="mt-auto">
-        <CTAButton variant="primary" theme={theme} label={ctaLabel} />
+        <CTAButton 
+          variant="primary" 
+          theme={theme} 
+          label={ctaLabel} 
+          onClick={() => {
+            window.location.href = WHATSAPP_LINK;
+          }}
+        />
       </div>
     </div>
   );

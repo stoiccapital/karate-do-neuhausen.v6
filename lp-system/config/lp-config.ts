@@ -8,6 +8,9 @@ export type LandingPageConfig = {
 export const DEFAULT_LOCALE = 'de';
 export const DEFAULT_LP_ID = 'example-lp';
 
+// WhatsApp contact link
+export const WHATSAPP_LINK = 'https://wa.me/491791226471';
+
 export const landingPages: LandingPageConfig[] = [
   { id: 'agency-lp', vertical: 'agency', slug: 'landing-pages', theme: 'light' },
   { id: 'example-lp', vertical: 'saas', slug: 'fleet', theme: 'dark' },

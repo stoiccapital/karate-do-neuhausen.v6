@@ -5,6 +5,7 @@ import { usePathname } from 'next/navigation';
 import { spacing, layout, navbar, ColorTheme } from '../config/design-system';
 import { CTAButton } from './ui/CTAButton';
 import { LocaleToggle } from './ui/LocaleToggle';
+import { WHATSAPP_LINK } from '../config/lp-config';
 
 export type NavbarLabels = {
   brand: string;
@@ -77,6 +78,12 @@ export function Navbar({ theme, labels, locale }: NavbarProps) {
     }
   }, [isLandingPage]);
 
+  // CTA button click handler - open WhatsApp
+  const handleCtaClick = () => {
+    window.location.href = WHATSAPP_LINK;
+    setIsOpen(false); // Close mobile menu if open
+  };
+
   // Navigation links configuration
   const navLinks = [
     { id: 'pricing', label: labels.links.pricing },
@@ -124,7 +131,7 @@ export function Navbar({ theme, labels, locale }: NavbarProps) {
             {/* Toggle Cluster (Desktop): LocaleToggle, CTA */}
             <div className={`hidden md:flex items-center ${spacing.gap.sm}`}>
               <LocaleToggle />
-              <CTAButton variant="primary" theme={theme} label={labels.cta} />
+              <CTAButton variant="primary" theme={theme} label={labels.cta} onClick={handleCtaClick} />
             </div>
 
             {/* Hamburger Button (Mobile Only) */}
@@ -192,7 +199,7 @@ export function Navbar({ theme, labels, locale }: NavbarProps) {
 
               {/* CTA Button (Mobile) */}
               <div className={spacing.block.y.sm}>
-                <CTAButton variant="primary" theme={theme} label={labels.cta} onClick={() => setIsOpen(false)} />
+                <CTAButton variant="primary" theme={theme} label={labels.cta} onClick={handleCtaClick} />
               </div>
             </div>
           </div>
