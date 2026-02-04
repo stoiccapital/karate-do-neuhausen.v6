@@ -4,7 +4,7 @@
     "links": {
       "features": "Kurse",
       "pricing": "Preise",
-      "useCases": "Training zeiten",
+      "useCases": "Trainingszeiten",
       "faq": "FAQ"
     },
     "cta": "Probestunde buchen",
@@ -21,7 +21,7 @@
     "title": "Selbstvertrauen durch strukturierte Shotokan-Karate aufbauen",
     "subtitle": "Wir vermitteln Kindern klare körperliche und mentale Fähigkeiten in einem strukturierten Karateprogramm. Eltern erhalten einen planbaren Trainingsweg mit messbarem Fortschritt.",
     "primaryCtaLabel": "Probestunde buchen",
-    "secondaryCtaLabel": "Training zeiten ansehen"
+    "secondaryCtaLabel": "Trainingszeiten ansehen"
   },
   "socialProof": {
     "label": "",
