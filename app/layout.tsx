@@ -20,7 +20,7 @@ export default function RootLayout({
   const htmlClassName = theme === 'dark' ? 'dark' : '';
 
   return (
-    <html lang="en" className={htmlClassName} data-theme={theme}>
+    <html lang="de" className={htmlClassName} data-theme={theme}>
       <body className="bg-bg-default text-text-primary">
         {children}
       </body>

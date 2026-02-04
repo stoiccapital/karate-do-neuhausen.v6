@@ -5,7 +5,7 @@ export type LandingPageConfig = {
   theme: 'light' | 'dark';
 };
 
-export const DEFAULT_LOCALE = 'en';
+export const DEFAULT_LOCALE = 'de';
 export const DEFAULT_LP_ID = 'example-lp';
 
 export const landingPages: LandingPageConfig[] = [
