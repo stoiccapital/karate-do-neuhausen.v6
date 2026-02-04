@@ -1,13 +1,13 @@
 {
   "navbar": {
-    "brand": "Muster Marke",
+    "brand": "Karate Do Neuhausen",
     "links": {
-      "features": "Muster Funktionen",
-      "pricing": "Muster Preise",
-      "useCases": "Muster Anwendungsfälle",
-      "faq": "Muster FAQ"
+      "features": "Kurse",
+      "pricing": "Preise",
+      "useCases": "Training zeiten",
+      "faq": "FAQ"
     },
-    "cta": "Muster CTA",
+    "cta": "Probestunde buchen",
     "ariaLabels": {
       "goToHomepage": "Zur Startseite",
       "switchToEnglish": "Zu Englisch wechseln",
@@ -17,29 +17,20 @@
     }
   },
   "hero": {
-    "eyebrow": "Muster Eyebrow Text",
-    "title": "Muster Hauptüberschrift",
-    "subtitle": "Muster Untertitel, der das Hauptwertversprechen und die wichtigsten Vorteile beschreibt.",
-    "primaryCtaLabel": "Muster Primärer CTA",
-    "secondaryCtaLabel": "Muster Sekundärer CTA"
+    "eyebrow": "",
+    "title": "Selbstvertrauen durch strukturierte Shotokan-Karate aufbauen",
+    "subtitle": "Wir vermitteln Kindern klare körperliche und mentale Fähigkeiten in einem strukturierten Karateprogramm. Eltern erhalten einen planbaren Trainingsweg mit messbarem Fortschritt.",
+    "primaryCtaLabel": "Probestunde buchen",
+    "secondaryCtaLabel": "Training zeiten ansehen"
   },
   "socialProof": {
-    "label": "Muster Vertrauen von vielen Kunden",
-    "logos": [
-      { "alt": "Muster Firma 1" },
-      { "alt": "Muster Firma 2" },
-      { "alt": "Muster Firma 3" },
-      { "alt": "Muster Firma 4" },
-      { "alt": "Muster Firma 5" },
-      { "alt": "Muster Firma 6" },
-      { "alt": "Muster Firma 7" },
-      { "alt": "Muster Firma 8" }
-    ]
+    "label": "",
+    "logos": []
   },
   "valueProps": {
-    "eyebrow": "Muster Wertversprechen Eyebrow",
-    "heading": "Muster Wertversprechen Überschrift",
-    "subtitle": "Muster Untertitel für Wertversprechen, der die wichtigsten Vorteile und das Wertversprechen des Produkts oder der Dienstleistung erklärt.",
+    "eyebrow": "",
+    "heading": "Traditionelles Shotokan-Karate",
+    "subtitle": "Strukturiertes Training für Kinder, Jugendliche und Erwachsene. Qualifizierte Anleitung durch erfahrene Trainer mit hohen Dan-Graden.",
     "items": []
   },
   "features": {
@@ -48,309 +39,254 @@
     "subtitle": "",
     "items": [
       {
-        "eyebrow": "Muster Funktion 1 Eyebrow",
-        "title": "Muster Funktion 1 Titel",
-        "body": "Muster Beschreibungstext für Funktion 1, der die wichtigsten Funktionen und Vorteile erklärt."
+        "eyebrow": "",
+        "title": "Strukturiertes Training",
+        "body": "Systematischer Aufbau von Grundtechniken bis zu fortgeschrittenen Kata. Klare Trainingspläne für jede Altersgruppe."
       },
       {
-        "eyebrow": "Muster Funktion 2 Eyebrow",
-        "title": "Muster Funktion 2 Titel",
-        "body": "Muster Beschreibungstext für Funktion 2, der die wichtigsten Funktionen und Vorteile erklärt."
+        "eyebrow": "",
+        "title": "Qualifizierte Trainer",
+        "body": "Anleitung durch Trainer mit 7. und 8. Dan. Langjährige Erfahrung in der Vermittlung traditioneller Karate-Werte."
       },
       {
-        "eyebrow": "Muster Funktion 3 Eyebrow",
-        "title": "Muster Funktion 3 Titel",
-        "body": "Muster Beschreibungstext für Funktion 3, der die wichtigsten Funktionen und Vorteile erklärt."
+        "eyebrow": "",
+        "title": "Altersgerechte Programme",
+        "body": "Spezielle Trainingsprogramme für Kinder ab 6 Jahren, Jugendliche und Erwachsene. Jede Gruppe trainiert nach ihrem Entwicklungsstand."
       },
       {
-        "eyebrow": "Muster Funktion 4 Eyebrow",
-        "title": "Muster Funktion 4 Titel",
-        "body": "Muster Beschreibungstext für Funktion 4, der die wichtigsten Funktionen und Vorteile erklärt."
+        "eyebrow": "",
+        "title": "Traditionelle Werte",
+        "body": "Vermittlung von Disziplin, Respekt und Selbstkontrolle. Langfristige Entwicklung von Körper und Geist."
       }
     ]
   },
   "deepDive": {
-    "eyebrow": "Muster Deep Dive Eyebrow",
-    "heading": "Muster Deep Dive Überschrift",
-    "subtitle": "Muster Deep Dive Untertitel, der den Prozess oder die Methodik erklärt.",
+    "eyebrow": "",
+    "heading": "Der Trainingsweg",
+    "subtitle": "Von den Grundlagen bis zur Meisterschaft. Ein strukturierter Weg mit klaren Zielen und messbarem Fortschritt.",
     "steps": [
       {
-        "title": "Muster Schritt 1 Titel",
-        "body": "Muster Beschreibungstext für Schritt 1, der erklärt, was in diesem Schritt passiert."
+        "title": "Grundlagen erlernen",
+        "body": "Systematischer Aufbau der Grundtechniken. Kihon, Kata und Kumite werden Schritt für Schritt vermittelt."
       },
       {
-        "title": "Muster Schritt 2 Titel",
-        "body": "Muster Beschreibungstext für Schritt 2, der erklärt, was in diesem Schritt passiert."
+        "title": "Regelmäßiges Training",
+        "body": "Zwei Trainingseinheiten pro Woche für kontinuierliche Entwicklung. Planbare Termine für langfristige Teilnahme."
       },
       {
-        "title": "Muster Schritt 3 Titel",
-        "body": "Muster Beschreibungstext für Schritt 3, der erklärt, was in diesem Schritt passiert."
+        "title": "Fortschritt und Graduierung",
+        "body": "Klare Prüfungsstruktur mit messbaren Fortschritten. Regelmäßige Gürtelprüfungen dokumentieren den Entwicklungsweg."
       }
     ]
   },
   "useCases": {
-    "heading": "Muster Anwendungsfälle Überschrift",
-    "subtitle": "Muster Untertitel für Anwendungsfälle, der die verschiedenen Anwendungsfälle und Anwendungen beschreibt.",
+    "heading": "Für wen ist Karate geeignet",
+    "subtitle": "Shotokan-Karate richtet sich an alle, die strukturiertes Training und traditionelle Werte schätzen.",
     "items": [
       {
-        "title": "Muster Anwendungsfall 1 Titel",
-        "body": "Muster Beschreibungstext für Anwendungsfall 1, der erklärt, wie dieser Anwendungsfall funktioniert und welche Vorteile er bietet."
+        "title": "Kinder ab 6 Jahren",
+        "body": "Altersgerechtes Training fördert Koordination, Konzentration und Selbstvertrauen. Klare Strukturen geben Sicherheit."
       },
       {
-        "title": "Muster Anwendungsfall 2 Titel",
-        "body": "Muster Beschreibungstext für Anwendungsfall 2, der erklärt, wie dieser Anwendungsfall funktioniert und welche Vorteile er bietet."
+        "title": "Jugendliche",
+        "body": "Training unterstützt die persönliche Entwicklung in einer wichtigen Lebensphase. Disziplin und Respekt werden gefördert."
       },
       {
-        "title": "Muster Anwendungsfall 3 Titel",
-        "body": "Muster Beschreibungstext für Anwendungsfall 3, der erklärt, wie dieser Anwendungsfall funktioniert und welche Vorteile er bietet."
+        "title": "Erwachsene",
+        "body": "Körperliche Fitness und mentale Ausgeglichenheit durch traditionelles Karate. Einstieg jederzeit möglich."
       },
       {
-        "title": "Muster Anwendungsfall 4 Titel",
-        "body": "Muster Beschreibungstext für Anwendungsfall 4, der erklärt, wie dieser Anwendungsfall funktioniert und welche Vorteile er bietet."
+        "title": "Familien",
+        "body": "Gemeinsames Training stärkt den Zusammenhalt. Eltern und Kinder können parallel trainieren."
       }
     ]
   },
   "integrations": {
-    "eyebrow": "Muster Integrationen Eyebrow",
-    "heading": "Muster Integrationen Überschrift",
-    "subtitle": "Muster Untertitel für Integrationen, der die verfügbaren Integrationen beschreibt.",
-    "integrations": [
-      { "name": "Muster Integration 1" }
-    ]
+    "eyebrow": "",
+    "heading": "",
+    "subtitle": "",
+    "integrations": []
   },
   "security": {
-    "heading": "Muster Sicherheit Überschrift",
-    "subtitle": "Muster Untertitel für Sicherheit, der Sicherheitsfunktionen und Compliance beschreibt.",
-    "items": [
-      {
-        "title": "Muster Sicherheitsfunktion 1",
-        "body": "Muster Beschreibungstext für Sicherheitsfunktion 1."
-      },
-      {
-        "title": "Muster Sicherheitsfunktion 2",
-        "body": "Muster Beschreibungstext für Sicherheitsfunktion 2."
-      },
-      {
-        "title": "Muster Sicherheitsfunktion 3",
-        "body": "Muster Beschreibungstext für Sicherheitsfunktion 3."
-      }
-    ]
+    "heading": "",
+    "subtitle": "",
+    "items": []
   },
   "metrics": {
-    "heading": "Muster Metriken Überschrift",
-    "subtitle": "Muster Untertitel für Metriken, der die wichtigsten Metriken und Statistiken beschreibt.",
+    "heading": "Trainingszeiten",
+    "subtitle": "",
     "metrics": [
       {
-        "value": "10.000+",
-        "label": "Muster Metrik 1 Bezeichnung",
-        "description": ""
+        "value": "Dienstag",
+        "label": "Trainingszeit",
+        "description": "17:00–20:30 Uhr"
       },
       {
-        "value": "5.000+",
-        "label": "Muster Metrik 2 Bezeichnung",
-        "description": ""
-      },
-      {
-        "value": "500+",
-        "label": "Muster Metrik 3 Bezeichnung",
-        "description": ""
+        "value": "Donnerstag",
+        "label": "Trainingszeit",
+        "description": "17:00–19:00 Uhr"
       }
     ]
   },
   "pricing": {
-    "heading": "Muster Preise Überschrift",
-    "subtitle": "Muster Untertitel für Preise, der die Preisstruktur beschreibt.",
-    "singleUserLabel": "1 Benutzer",
-    "singleUserTitle": "1 Benutzer Übersicht",
-    "billingToggle": {
-      "label": "Abrechnungszeitraum",
-      "monthly": "Monatlich",
-      "yearly": "Jährlich",
-      "yearlyBadge": "20% sparen"
-    },
-    "singleUserLabels": {
-      "monthly": "monatlich",
-      "yearly": "jährlich"
-    },
+    "heading": "Preise",
+    "subtitle": "Zwei Trainingseinheiten pro Woche. Planbare Termine für kontinuierliche Entwicklung.",
     "plans": [
       {
         "id": "core",
-        "title": "Kern",
+        "title": "Kinder",
         "billing": {
           "monthly": {
-            "price": "€50 / Monat",
-            "detail": "Team · monatliche Abrechnung"
-          },
-          "yearly": {
-            "price": "€40 / Monat",
-            "subPrice": "(€480 / Jahr)",
-            "detail": "Team · jährliche Abrechnung"
+            "price": "€66 / Quartal",
+            "detail": "2 Trainingseinheiten pro Woche"
           }
         },
-        "body": "Muster Kern-Plan Beschreibung",
+        "body": "Für Kinder von 6–14 Jahren. Altersgerechtes Trainingsprogramm mit Shotokan-Trainingsplan.",
         "features": [
-          "Muster Funktion 1",
-          "Muster Funktion 2",
-          "Muster Funktion 3",
-          "Muster Funktion 4"
+          "2 Trainingseinheiten pro Woche",
+          "Altersgerechtes Trainingsprogramm",
+          "Shotokan-Trainingsplan",
+          "Regelmäßige Fortschrittsbewertung"
         ],
-        "singleUser": {
-          "monthly": "€30 / Monat",
-          "yearly": "€288 / Jahr"
-        },
-        "ctaLabel": "Muster Kern starten"
+        "ctaLabel": "Probestunde buchen"
       },
       {
         "id": "operations",
-        "title": "Betrieb",
+        "title": "Jugend",
         "billing": {
           "monthly": {
-            "price": "€100 / Monat",
-            "detail": "Team · monatliche Abrechnung"
-          },
-          "yearly": {
-            "price": "€80 / Monat",
-            "subPrice": "(€960 / Jahr)",
-            "detail": "Team · jährliche Abrechnung"
+            "price": "€75 / Quartal",
+            "detail": "2 Trainingseinheiten pro Woche"
           }
         },
-        "body": "Muster Betriebs-Plan Beschreibung",
+        "body": "Für Jugendliche von 15–17 Jahren. Shotokan-Trainingsprogramm mit Anleitung durch Trainer mit 7. und 8. Dan.",
         "features": [
-          "Alle Kern-Funktionen",
-          "Muster Funktion 5",
-          "Muster Funktion 6",
-          "Muster Funktion 7"
+          "2 Trainingseinheiten pro Woche",
+          "Shotokan-Trainingsprogramm",
+          "Anleitung durch Trainer mit 7. und 8. Dan",
+          "Regelmäßige Graduierungsprüfungen"
         ],
-        "singleUser": {
-          "monthly": "€60 / Monat",
-          "yearly": "€576 / Jahr"
-        },
-        "ctaLabel": "Muster Betrieb starten",
+        "ctaLabel": "Probestunde buchen",
         "isPopular": true
       },
       {
         "id": "full",
-        "title": "Vollständige Plattform",
+        "title": "Erwachsene",
         "billing": {
           "monthly": {
-            "price": "€200 / Monat",
-            "detail": "Team · monatliche Abrechnung"
-          },
-          "yearly": {
-            "price": "€160 / Monat",
-            "subPrice": "(€1.920 / Jahr)",
-            "detail": "Team · jährliche Abrechnung"
+            "price": "€90 / Quartal",
+            "detail": "2 Trainingseinheiten pro Woche"
           }
         },
-        "body": "Muster Vollständige Plattform Beschreibung",
+        "body": "Für Erwachsene ab 18 Jahren. Shotokan-Trainingsprogramm mit Anleitung durch Trainer mit 7. und 8. Dan.",
         "features": [
-          "Alle Betriebs-Funktionen",
-          "Muster Funktion 8",
-          "Muster Funktion 9",
-          "Muster Funktion 10"
+          "2 Trainingseinheiten pro Woche",
+          "Shotokan-Trainingsprogramm",
+          "Anleitung durch Trainer mit 7. und 8. Dan",
+          "Regelmäßige Graduierungsprüfungen"
         ],
-        "singleUser": {
-          "monthly": "€120 / Monat",
-          "yearly": "€1.152 / Jahr"
-        },
-        "ctaLabel": "Muster Verkauf kontaktieren"
+        "ctaLabel": "Probestunde buchen"
       }
     ]
   },
   "faq": {
-    "heading": "Muster FAQ Überschrift",
-    "subtitle": "Muster FAQ Untertitel, der beschreibt, welche Informationen verfügbar sind.",
+    "heading": "Häufige Fragen",
+    "subtitle": "Antworten auf die wichtigsten Fragen zum Training und zur Mitgliedschaft.",
     "items": [
       {
-        "question": "Muster FAQ Frage 1?",
-        "answer": "Muster FAQ Antwort 1, die die Antwort auf die erste Frage erklärt."
+        "question": "Ab welchem Alter können Kinder mit Karate beginnen?",
+        "answer": "Kinder können ab 6 Jahren mit dem Training beginnen. Das Programm ist altersgerecht gestaltet und fördert Koordination, Konzentration und Selbstvertrauen."
       },
       {
-        "question": "Muster FAQ Frage 2?",
-        "answer": "Muster FAQ Antwort 2, die die Antwort auf die zweite Frage erklärt."
+        "question": "Wie oft findet das Training statt?",
+        "answer": "Das Training findet zweimal pro Woche statt. Die Termine sind fest geplant und ermöglichen kontinuierliche Entwicklung."
       },
       {
-        "question": "Muster FAQ Frage 3?",
-        "answer": "Muster FAQ Antwort 3, die die Antwort auf die dritte Frage erklärt."
+        "question": "Brauche ich Vorkenntnisse?",
+        "answer": "Nein, Vorkenntnisse sind nicht erforderlich. Das Training beginnt mit den Grundlagen und baut systematisch auf."
       },
       {
-        "question": "Muster FAQ Frage 4?",
-        "answer": "Muster FAQ Antwort 4, die die Antwort auf die vierte Frage erklärt."
+        "question": "Was ist Shotokan-Karate?",
+        "answer": "Shotokan ist eine traditionelle Karate-Stilrichtung, die auf Disziplin, Respekt und systematischem Training basiert. Techniken werden in Kihon, Kata und Kumite vermittelt."
       },
       {
-        "question": "Muster FAQ Frage 5?",
-        "answer": "Muster FAQ Antwort 5, die die Antwort auf die fünfte Frage erklärt."
+        "question": "Wie läuft eine Probestunde ab?",
+        "answer": "In der Probestunde lernen Sie das Training kennen und können Fragen stellen. Eine Anmeldung ist vorab erforderlich."
       },
       {
-        "question": "Muster FAQ Frage 6?",
-        "answer": "Muster FAQ Antwort 6, die die Antwort auf die sechste Frage erklärt."
+        "question": "Welche Ausrüstung wird benötigt?",
+        "answer": "Für den Anfang reicht bequeme Sportkleidung. Ein Karate-Gi wird später benötigt und kann nach der Probestunde besprochen werden."
       }
     ]
   },
   "testimonials": {
-    "heading": "Muster Testimonials Überschrift",
-    "subtitle": "Muster Testimonials Untertitel, der Kundenerfolgsgeschichten beschreibt.",
-    "usedModulesLabel": "Genutzte Module",
+    "heading": "Was Teilnehmer sagen",
+    "subtitle": "Erfahrungen von Kindern, Jugendlichen und Erwachsenen im Training.",
+    "usedModulesLabel": "",
     "googleReviews": {
-      "url": "https://share.google/jnQQp0UIEti8scgY7",
-      "text": "Google Bewertungen · 5.0 / 5.0",
+      "url": "https://share.google/8Z66SETw3YfIXJNjD",
+      "text": "★ 5,0/5 basierend auf Google-Bewertungen",
       "stars": "★★★★★",
-      "ariaLabel": "Google Bewertungen: 5 von 5 Sternen"
+      "ariaLabel": "Google Bewertungen: 5,0 von 5 Sternen"
     },
     "navigation": {
-      "previous": "Vorheriges Testimonial",
-      "next": "Nächstes Testimonial"
+      "previous": "Vorheriges",
+      "next": "Nächstes"
     },
     "labels": {
-      "customer": "Kunde",
+      "customer": "Teilnehmer",
       "outcome": "Ergebnis",
       "description": "Beschreibung"
     },
     "testimonials": [
       {
-        "customer": "Muster Firma 1 · Muster Personenname, Muster Titel",
-        "outcome": "Muster Ergebnis 1",
-        "description": "Muster Testimonial Beschreibung 1, die die Kundenerfahrung und Ergebnisse erklärt.",
+        "customer": "Eltern · Kind, 8 Jahre",
+        "outcome": "Verbesserte Konzentration",
+        "description": "Unser Kind hat durch das strukturierte Training deutlich mehr Selbstvertrauen entwickelt. Die klaren Regeln und der respektvolle Umgang wirken sich auch auf die Schule positiv aus.",
         "outcomes": [
-          { "value": "Muster Wert 1", "label": "Muster Bezeichnung 1" },
-          { "value": "Muster Wert 2", "label": "Muster Bezeichnung 2" }
+          { "value": "6 Monate", "label": "Trainingsdauer" },
+          { "value": "Gelb-Gurt", "label": "Aktueller Grad" }
         ],
-        "modules": ["Muster Modul 1"]
+        "modules": []
       },
       {
-        "customer": "Muster Firma 2 · Muster Personenname, Muster Titel",
-        "outcome": "Muster Ergebnis 2",
-        "description": "Muster Testimonial Beschreibung 2, die die Kundenerfahrung und Ergebnisse erklärt.",
+        "customer": "Erwachsener Teilnehmer · 35 Jahre",
+        "outcome": "Körperliche Fitness",
+        "description": "Das Training bietet einen guten Ausgleich zum Berufsalltag. Die strukturierte Herangehensweise und die traditionellen Werte machen das Training besonders wertvoll.",
         "outcomes": [
-          { "value": "Muster Wert 3", "label": "Muster Bezeichnung 3" },
-          { "value": "Muster Wert 4", "label": "Muster Bezeichnung 4" }
+          { "value": "2 Jahre", "label": "Trainingsdauer" },
+          { "value": "Grün-Gurt", "label": "Aktueller Grad" }
         ],
-        "modules": ["Muster Modul 2", "Muster Modul 3"]
+        "modules": []
       },
       {
-        "customer": "Muster Firma 3 · Muster Personenname, Muster Titel",
-        "outcome": "Muster Ergebnis 3",
-        "description": "Muster Testimonial Beschreibung 3, die die Kundenerfahrung und Ergebnisse erklärt.",
+        "customer": "Jugendlicher · 16 Jahre",
+        "outcome": "Persönliche Entwicklung",
+        "description": "Karate hilft mir, Disziplin und Selbstkontrolle zu entwickeln. Die regelmäßigen Prüfungen zeigen mir meinen Fortschritt klar auf.",
         "outcomes": [
-          { "value": "Muster Wert 5", "label": "Muster Bezeichnung 5" },
-          { "value": "Muster Wert 6", "label": "Muster Bezeichnung 6" }
+          { "value": "1 Jahr", "label": "Trainingsdauer" },
+          { "value": "Orange-Gurt", "label": "Aktueller Grad" }
         ],
-        "modules": ["Muster Modul 4", "Muster Modul 5", "Muster Modul 6"]
+        "modules": []
       }
     ]
   },
   "finalCta": {
-    "heading": "Muster Finale CTA Überschrift",
-    "subtitle": "Muster Finale CTA Untertitel, der den Benutzer ermutigt, Maßnahmen zu ergreifen.",
-    "ctaLabel": "Muster Loslegen"
+    "heading": "Starte die Selbstvertrauen-Reise deines Kindes",
+    "subtitle": "Dein Kind erlernt klare Fähigkeiten durch strukturiertes Shotokan-Training.",
+    "ctaLabel": "Probestunde buchen",
+    "address": {
+      "street": "Winthirplatz 6",
+      "city": "80639 München",
+      "phone": "Tel.: +49 179 1226471"
+    }
   },
   "footer": {
-    "copyright": "© 2024 Muster Marke. Alle Rechte vorbehalten.",
+    "copyright": "© 2024 Karate Do Neuhausen. Alle Rechte vorbehalten.",
     "links": {
-      "privacy": "Muster Datenschutz",
-      "terms": "Muster Nutzungsbedingungen",
+      "privacy": "Datenschutz",
+      "terms": "",
       "contact": "Impressum"
     }
   }
 }
-

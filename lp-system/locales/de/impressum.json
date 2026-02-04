@@ -1,22 +1,35 @@
 {
-  "title": "Muster Impressum",
+  "title": "Impressum",
   "content": {
     "sections": [
       {
-        "heading": "Muster Abschnitt 1",
+        "heading": "Rechtliche Informationen und Kontaktdaten",
         "paragraphs": [
-          "Muster Absatz 1 für Impressum-Seite.",
-          "Muster Absatz 2 für Impressum-Seite."
-        ]
-      },
-      {
-        "heading": "Muster Abschnitt 2",
-        "paragraphs": [
-          "Muster Absatz 3 für Impressum-Seite.",
-          "Muster Absatz 4 für Impressum-Seite."
+          "Organisation",
+          "Karate Do Neuhausen e. V.",
+          "",
+          "Kontaktperson",
+          "Pero Lazic",
+          "Telefon: +49 179 1226471",
+          "",
+          "Vorstand",
+          "Eva Lell",
+          "",
+          "Adresse",
+          "Karate Do Neuhausen",
+          "Winthirplatz 6",
+          "80639 München",
+          "Deutschland",
+          "",
+          "Vereinsdaten",
+          "Registernummer: VR 17176 München",
+          "Umsatzsteuer-Identifikationsnummer: 143/217/80416 K47",
+          "",
+          "Bankverbindung",
+          "Deutsche Bank PGK",
+          "IBAN: DE05 7007 0024 0696 0140 00"
         ]
       }
     ]
   }
 }
-

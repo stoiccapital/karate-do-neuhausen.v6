@@ -80,7 +80,7 @@ export function Navbar({ theme, labels, locale }: NavbarProps) {
   // Navigation links configuration
   const navLinks = [
     { id: 'pricing', label: labels.links.pricing },
-    { id: 'use-cases', label: labels.links.useCases },
+    { id: 'metrics', label: labels.links.useCases },
     { id: 'faq', label: labels.links.faq },
   ];
 

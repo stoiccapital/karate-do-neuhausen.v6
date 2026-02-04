@@ -43,8 +43,12 @@ export function DeepDive({ copy, theme }: DeepDiveProps) {
             ))}
           </div>
           <div className="flex justify-center lg:justify-end">
-            <div className={`w-full ${components.media.maxWidth.xl} ${components.media.aspectRatios['16:9']} ${components.radius.media} border border-border-subtle bg-bg-neutral flex items-center justify-center`}>
-              <div className="text-text-muted text-sm">Image</div>
+            <div className={`w-full ${components.media.maxWidth.xl} ${components.radius.media} border border-border-subtle bg-bg-neutral overflow-hidden`} style={{ aspectRatio: '4/3', minHeight: '500px' }}>
+              <img 
+                src="/images/sections/guertelfortschritt-fuenf-jahre.jpg" 
+                alt={copy.heading || "Training progress"} 
+                className="w-full h-full object-cover object-center"
+              />
             </div>
           </div>
         </SplitGrid>

@@ -10,8 +10,8 @@ export type PricingCardProps = {
   teamPrice: string;
   teamPriceSub?: string;
   teamPriceDetail: string;
-  singleUserMonthly: string;
-  singleUserYearly: string;
+  singleUserMonthly?: string;
+  singleUserYearly?: string;
   billingMode: BillingMode;
   singleUserLabel?: string;
   singleUserModeLabel?: string;
@@ -100,18 +100,20 @@ export function PricingCard(props: PricingCardProps) {
             </li>
           ))}
         </ul>
-        <div className={`${typography.textXs} text-text-muted`}>
-          <div className={`grid grid-cols-[1fr_7.5rem] ${spacing.element.y.xs}`}>
-            <span>{singleUserLabel}</span>
-            <span />
+        {singleUserLabel && singleUserMonthly && singleUserYearly && (
+          <div className={`${typography.textXs} text-text-muted`}>
+            <div className={`grid grid-cols-[1fr_7.5rem] ${spacing.element.y.xs}`}>
+              <span>{singleUserLabel}</span>
+              <span />
+            </div>
+            <div className="grid grid-cols-[1fr_7.5rem]">
+              <span>{singleUserModeLabel}</span>
+              <span className="text-right tabular-nums whitespace-nowrap w-full">
+                {billingMode === 'yearly' ? singleUserYearly : singleUserMonthly}
+              </span>
+            </div>
           </div>
-          <div className="grid grid-cols-[1fr_7.5rem]">
-            <span>{singleUserModeLabel}</span>
-            <span className="text-right tabular-nums whitespace-nowrap w-full">
-              {billingMode === 'yearly' ? singleUserYearly : singleUserMonthly}
-            </span>
-          </div>
-        </div>
+        )}
       </div>
       
       <div className="mt-auto">

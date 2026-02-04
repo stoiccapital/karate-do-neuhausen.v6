@@ -16,7 +16,7 @@ function normalizeText(s: string): string {
 
 export function Metrics({ copy }: MetricsProps) {
   const gridColsClass =
-    copy.metrics.length === 4 ? "md:grid-cols-4" : "md:grid-cols-3";
+    copy.metrics.length === 4 ? "md:grid-cols-4" : copy.metrics.length === 2 ? "md:grid-cols-2" : "md:grid-cols-3";
 
   return (
     <section
@@ -41,17 +41,17 @@ export function Metrics({ copy }: MetricsProps) {
           >
           {copy.metrics.map((metric, index) => (
             <div key={index}>
-              {/* VALUE */}
-              <div className={`${typography.h3} text-text-primary ${spacing.element.y.xs}`}>
+              {/* DAY NAME (H3 level) */}
+              <h3 className={`${typography.h3} text-text-primary ${spacing.element.y.xs}`}>
                 {normalizeText(metric.value)}
-              </div>
-
-              {/* LABEL */}
-              <h3 className={`${typography.body} text-text-primary ${spacing.element.y.xs}`}>
-                {normalizeText(metric.label)}
               </h3>
 
-              {/* DESCRIPTION */}
+              {/* LABEL */}
+              <div className={`${typography.body} text-text-primary ${spacing.element.y.xs}`}>
+                {normalizeText(metric.label)}
+              </div>
+
+              {/* TIME RANGE */}
               <p className={`${typography.body} text-text-secondary`}>
                 {normalizeText(metric.description)}
               </p>

@@ -83,8 +83,12 @@ export function ValueProps({ copy, theme }: ValuePropsProps) {
             )}
           </div>
           <div className="flex justify-center lg:justify-end">
-            <div className={`w-full ${components.media.maxWidth.xl} ${components.media.aspectRatios['16:9']} ${components.radius.media} border border-border-subtle bg-bg-neutral flex items-center justify-center`}>
-              <div className="text-text-muted text-sm">Image</div>
+            <div className={`w-full ${components.media.maxWidth.xl} ${components.media.aspectRatios['16:9']} ${components.radius.media} border border-border-subtle bg-bg-neutral overflow-hidden`}>
+              <img 
+                src="/images/features/shotokan-karate-stil.jpg" 
+                alt={copy.heading || "Traditional Shotokan Karate"} 
+                className="w-full h-full object-cover object-center"
+              />
             </div>
           </div>
         </SplitGrid>

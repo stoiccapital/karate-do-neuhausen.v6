@@ -47,14 +47,14 @@ export type PricingPlanCopy = {
       detail: string;
       subPrice?: string;
     };
-    yearly: {
+    yearly?: {
       price: string;
       detail: string;
       subPrice?: string;
     };
   };
   features: string[];
-  singleUser: {
+  singleUser?: {
     monthly: string;
     yearly: string;
   };
@@ -101,6 +101,11 @@ export type SectionFinalCtaCopy = {
   heading: string;
   subtitle: string;
   ctaLabel: string;
+  address?: {
+    street: string;
+    city: string;
+    phone: string;
+  };
 };
 
 export type SectionTestimonialsCopy = {

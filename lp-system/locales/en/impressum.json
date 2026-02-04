@@ -1,22 +1,35 @@
 {
-  "title": "Mock Legal Notice",
+  "title": "Imprint",
   "content": {
     "sections": [
       {
-        "heading": "Mock Section 1",
+        "heading": "Legal information and contact details",
         "paragraphs": [
-          "Mock paragraph 1 for Legal Notice page.",
-          "Mock paragraph 2 for Legal Notice page."
-        ]
-      },
-      {
-        "heading": "Mock Section 2",
-        "paragraphs": [
-          "Mock paragraph 3 for Legal Notice page.",
-          "Mock paragraph 4 for Legal Notice page."
+          "Organization",
+          "Karate Do Neuhausen e. V.",
+          "",
+          "Contact Person",
+          "Pero Lazic",
+          "Phone: +49 179 1226471",
+          "",
+          "Board Members",
+          "Eva Lell",
+          "",
+          "Address",
+          "Karate Do Neuhausen",
+          "Winthirplatz 6",
+          "80639 Munich",
+          "Germany",
+          "",
+          "Association Data",
+          "Registration Number: VR 17176 Munich",
+          "VAT Identification Number: 143/217/80416 K47",
+          "",
+          "Bank Details",
+          "Deutsche Bank PGK",
+          "IBAN: DE05 7007 0024 0696 0140 00"
         ]
       }
     ]
   }
 }
-

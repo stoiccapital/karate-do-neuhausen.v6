@@ -1,7 +1,7 @@
 import React from 'react';
 import { ThemeName, themes } from '../config/theme';
 import { LegalPageCopy } from '../config/types';
-import { getMessages } from '../locales';
+import { getMessages, loadPageCopy } from '../locales';
 import { Navbar } from '../components/Navbar';
 import { Footer } from '../components/Footer';
 import { spacing, layout, typography, globalBackground, ColorTheme } from '../config/design-system';
@@ -15,11 +15,12 @@ export type LegalPageTemplateProps = {
 export function LegalPageTemplate({ theme, copy, locale }: LegalPageTemplateProps) {
   const themeConfig = themes[theme];
   const messages = getMessages(locale);
+  const indexCopy = loadPageCopy(locale, 'example-lp');
 
   return (
     <div className={`min-h-screen ${themeConfig.background} ${themeConfig.font}`}>
       {/* Navbar */}
-      <Navbar theme={theme} labels={messages.navbar} locale={locale} />
+      <Navbar theme={theme} labels={indexCopy?.navbar || messages.navbar} locale={locale} />
       
       {/* Main content */}
       <main>
@@ -52,7 +53,7 @@ export function LegalPageTemplate({ theme, copy, locale }: LegalPageTemplateProp
       </main>
       
       {/* Footer */}
-      <Footer theme={theme} labels={messages.footer} locale={locale} />
+      <Footer theme={theme} labels={indexCopy?.footer || messages.footer} locale={locale} />
     </div>
   );
 }

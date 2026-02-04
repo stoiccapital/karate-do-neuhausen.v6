@@ -1,45 +1,36 @@
 {
   "navbar": {
-    "brand": "Mock Brand",
+    "brand": "Karate Do Neuhausen",
     "links": {
-      "features": "Mock Features",
-      "pricing": "Mock Pricing",
-      "useCases": "Mock Use Cases",
-      "faq": "Mock FAQ"
+      "features": "Courses",
+      "pricing": "Pricing",
+      "useCases": "Training times",
+      "faq": "FAQ"
     },
-    "cta": "Mock CTA",
+    "cta": "Book trial lesson",
     "ariaLabels": {
-      "goToHomepage": "Mock go to homepage",
-      "switchToEnglish": "Mock switch to English",
-      "switchToGerman": "Mock switch to German",
-      "openMenu": "Mock open main menu",
-      "closeMenu": "Mock close main menu"
+      "goToHomepage": "Go to homepage",
+      "switchToEnglish": "Switch to English",
+      "switchToGerman": "Switch to German",
+      "openMenu": "Open main menu",
+      "closeMenu": "Close main menu"
     }
   },
   "hero": {
-    "eyebrow": "Eyebrow Text",
-    "title": "Main Heading Text",
-    "subtitle": "Subtitle text describing the main value proposition and key benefits.",
-    "primaryCtaLabel": "Mock Primary CTA",
-    "secondaryCtaLabel": "Mock Secondary CTA"
+    "eyebrow": "",
+    "title": "Build self-confidence through structured Shotokan Karate",
+    "subtitle": "We teach children clear physical and mental skills in a structured karate program. Parents receive a predictable training path with measurable progress.",
+    "primaryCtaLabel": "Book trial lesson",
+    "secondaryCtaLabel": "View training times"
   },
   "socialProof": {
-    "label": "Mock Trusted by many customers",
-    "logos": [
-      { "alt": "Mock Company 1" },
-      { "alt": "Mock Company 2" },
-      { "alt": "Mock Company 3" },
-      { "alt": "Mock Company 4" },
-      { "alt": "Mock Company 5" },
-      { "alt": "Mock Company 6" },
-      { "alt": "Mock Company 7" },
-      { "alt": "Mock Company 8" }
-    ]
+    "label": "",
+    "logos": []
   },
   "valueProps": {
-    "eyebrow": "Value Props Eyebrow",
-    "heading": "Value Props Heading",
-    "subtitle": "Value props subtitle text explaining the key benefits and value proposition of the product or service.",
+    "eyebrow": "",
+    "heading": "Traditional Shotokan Karate",
+    "subtitle": "Structured training for children, youth, and adults. Qualified instruction by experienced trainers with high Dan grades.",
     "items": []
   },
   "features": {
@@ -48,309 +39,254 @@
     "subtitle": "",
     "items": [
       {
-        "eyebrow": "Feature 1 Eyebrow",
-        "title": "Feature 1 Title",
-        "body": "Feature 1 description text explaining the key functionality and benefits."
+        "eyebrow": "",
+        "title": "Structured Training",
+        "body": "Systematic progression from basic techniques to advanced kata. Clear training plans for each age group."
       },
       {
-        "eyebrow": "Feature 2 Eyebrow",
-        "title": "Feature 2 Title",
-        "body": "Feature 2 description text explaining the key functionality and benefits."
+        "eyebrow": "",
+        "title": "Qualified Trainers",
+        "body": "Instruction by trainers with 7th and 8th Dan. Long-standing experience in teaching traditional karate values."
       },
       {
-        "eyebrow": "Feature 3 Eyebrow",
-        "title": "Feature 3 Title",
-        "body": "Feature 3 description text explaining the key functionality and benefits."
+        "eyebrow": "",
+        "title": "Age-Appropriate Programs",
+        "body": "Special training programs for children from age 6, youth, and adults. Each group trains according to their developmental level."
       },
       {
-        "eyebrow": "Feature 4 Eyebrow",
-        "title": "Feature 4 Title",
-        "body": "Feature 4 description text explaining the key functionality and benefits."
+        "eyebrow": "",
+        "title": "Traditional Values",
+        "body": "Teaching discipline, respect, and self-control. Long-term development of body and mind."
       }
     ]
   },
   "deepDive": {
-    "eyebrow": "Deep Dive Eyebrow",
-    "heading": "Deep Dive Heading",
-    "subtitle": "Deep dive subtitle text explaining the process or methodology.",
+    "eyebrow": "",
+    "heading": "The Training Path",
+    "subtitle": "From fundamentals to mastery. A structured path with clear goals and measurable progress.",
     "steps": [
       {
-        "title": "Step 1 Title",
-        "body": "Step 1 description text explaining what happens in this step."
+        "title": "Learn Fundamentals",
+        "body": "Systematic development of basic techniques. Kihon, Kata, and Kumite are taught step by step."
       },
       {
-        "title": "Step 2 Title",
-        "body": "Step 2 description text explaining what happens in this step."
+        "title": "Regular Training",
+        "body": "Two training sessions per week for continuous development. Predictable schedule for long-term participation."
       },
       {
-        "title": "Step 3 Title",
-        "body": "Step 3 description text explaining what happens in this step."
+        "title": "Progress and Grading",
+        "body": "Clear examination structure with measurable progress. Regular belt examinations document the development path."
       }
     ]
   },
   "useCases": {
-    "heading": "Use Cases Heading",
-    "subtitle": "Use cases subtitle text describing the various use cases and applications.",
+    "heading": "Who is Karate suitable for",
+    "subtitle": "Shotokan Karate is for everyone who values structured training and traditional values.",
     "items": [
       {
-        "title": "Use Case 1 Title",
-        "body": "Use case 1 description text explaining how this use case works and its benefits."
+        "title": "Children from age 6",
+        "body": "Age-appropriate training promotes coordination, concentration, and self-confidence. Clear structures provide security."
       },
       {
-        "title": "Use Case 2 Title",
-        "body": "Use case 2 description text explaining how this use case works and its benefits."
+        "title": "Youth",
+        "body": "Training supports personal development in an important life phase. Discipline and respect are fostered."
       },
       {
-        "title": "Use Case 3 Title",
-        "body": "Use case 3 description text explaining how this use case works and its benefits."
+        "title": "Adults",
+        "body": "Physical fitness and mental balance through traditional karate. Entry possible at any time."
       },
       {
-        "title": "Use Case 4 Title",
-        "body": "Use case 4 description text explaining how this use case works and its benefits."
+        "title": "Families",
+        "body": "Training together strengthens cohesion. Parents and children can train in parallel."
       }
     ]
   },
   "integrations": {
-    "eyebrow": "Integrations Eyebrow",
-    "heading": "Integrations Heading",
-    "subtitle": "Integrations subtitle text describing the available integrations.",
-    "integrations": [
-      { "name": "Integration 1" }
-    ]
+    "eyebrow": "",
+    "heading": "",
+    "subtitle": "",
+    "integrations": []
   },
   "security": {
-    "heading": "Security Heading",
-    "subtitle": "Security subtitle text describing security features and compliance.",
-    "items": [
-      {
-        "title": "Security Feature 1",
-        "body": "Security feature 1 description text."
-      },
-      {
-        "title": "Security Feature 2",
-        "body": "Security feature 2 description text."
-      },
-      {
-        "title": "Security Feature 3",
-        "body": "Security feature 3 description text."
-      }
-    ]
+    "heading": "",
+    "subtitle": "",
+    "items": []
   },
   "metrics": {
-    "heading": "Metrics Heading",
-    "subtitle": "Metrics subtitle text describing the key metrics and statistics.",
+    "heading": "Training Times",
+    "subtitle": "",
     "metrics": [
       {
-        "value": "10,000+",
-        "label": "Metric 1 label",
-        "description": ""
+        "value": "Tuesday",
+        "label": "Training Time",
+        "description": "17:00–20:30"
       },
       {
-        "value": "5,000+",
-        "label": "Metric 2 label",
-        "description": ""
-      },
-      {
-        "value": "500+",
-        "label": "Metric 3 label",
-        "description": ""
+        "value": "Thursday",
+        "label": "Training Time",
+        "description": "17:00–19:00"
       }
     ]
   },
   "pricing": {
-    "heading": "Pricing Heading",
-    "subtitle": "Pricing subtitle text describing the pricing structure.",
-    "singleUserLabel": "1 User",
-    "singleUserTitle": "1 User Overview",
-    "billingToggle": {
-      "label": "Billing Period",
-      "monthly": "Monthly",
-      "yearly": "Yearly",
-      "yearlyBadge": "Save 20%"
-    },
-    "singleUserLabels": {
-      "monthly": "monthly",
-      "yearly": "yearly"
-    },
+    "heading": "Pricing",
+    "subtitle": "Two training sessions per week. Predictable schedule for continuous development.",
     "plans": [
       {
         "id": "core",
-        "title": "Core",
+        "title": "Children",
         "billing": {
           "monthly": {
-            "price": "€50 / Month",
-            "detail": "Team · monthly billing"
-          },
-          "yearly": {
-            "price": "€40 / Month",
-            "subPrice": "(€480 / Year)",
-            "detail": "Team · yearly billing"
+            "price": "€66 / Quarter",
+            "detail": "2 training sessions per week"
           }
         },
-        "body": "Core plan description",
+        "body": "For children from 6–14 years. Age-appropriate training program with Shotokan training plan.",
         "features": [
-          "Feature 1",
-          "Feature 2",
-          "Feature 3",
-          "Feature 4"
+          "2 training sessions per week",
+          "Age-appropriate training program",
+          "Shotokan training plan",
+          "Regular progress assessment"
         ],
-        "singleUser": {
-          "monthly": "€30 / Month",
-          "yearly": "€288 / Year"
-        },
-        "ctaLabel": "Mock Start Core"
+        "ctaLabel": "Book trial lesson"
       },
       {
         "id": "operations",
-        "title": "Operations",
+        "title": "Teen",
         "billing": {
           "monthly": {
-            "price": "€100 / Month",
-            "detail": "Team · monthly billing"
-          },
-          "yearly": {
-            "price": "€80 / Month",
-            "subPrice": "(€960 / Year)",
-            "detail": "Team · yearly billing"
+            "price": "€75 / Quarter",
+            "detail": "2 training sessions per week"
           }
         },
-        "body": "Operations plan description",
+        "body": "For teens from 15–17 years. Shotokan training program with instruction by trainers with 7th and 8th Dan.",
         "features": [
-          "All Core features",
-          "Feature 5",
-          "Feature 6",
-          "Feature 7"
+          "2 training sessions per week",
+          "Shotokan training program",
+          "Instruction by trainers with 7th and 8th Dan",
+          "Regular grading examinations"
         ],
-        "singleUser": {
-          "monthly": "€60 / Month",
-          "yearly": "€576 / Year"
-        },
-        "ctaLabel": "Mock Start Operations",
+        "ctaLabel": "Book trial lesson",
         "isPopular": true
       },
       {
         "id": "full",
-        "title": "Full Platform",
+        "title": "Adult",
         "billing": {
           "monthly": {
-            "price": "€200 / Month",
-            "detail": "Team · monthly billing"
-          },
-          "yearly": {
-            "price": "€160 / Month",
-            "subPrice": "(€1,920 / Year)",
-            "detail": "Team · yearly billing"
+            "price": "€90 / Quarter",
+            "detail": "2 training sessions per week"
           }
         },
-        "body": "Full platform description",
+        "body": "For adults from 18 years. Shotokan training program with instruction by trainers with 7th and 8th Dan.",
         "features": [
-          "All Operations features",
-          "Feature 8",
-          "Feature 9",
-          "Feature 10"
+          "2 training sessions per week",
+          "Shotokan training program",
+          "Instruction by trainers with 7th and 8th Dan",
+          "Regular grading examinations"
         ],
-        "singleUser": {
-          "monthly": "€120 / Month",
-          "yearly": "€1,152 / Year"
-        },
-        "ctaLabel": "Mock Talk to Sales"
+        "ctaLabel": "Book trial lesson"
       }
     ]
   },
   "faq": {
-    "heading": "FAQ Heading",
-    "subtitle": "FAQ subtitle text describing what information is available.",
+    "heading": "Frequently Asked Questions",
+    "subtitle": "Answers to the most important questions about training and membership.",
     "items": [
       {
-        "question": "FAQ Question 1?",
-        "answer": "FAQ Answer 1 explaining the response to the first question."
+        "question": "At what age can children start with karate?",
+        "answer": "Children can start training from age 6. The program is designed age-appropriately and promotes coordination, concentration, and self-confidence."
       },
       {
-        "question": "FAQ Question 2?",
-        "answer": "FAQ Answer 2 explaining the response to the second question."
+        "question": "How often does training take place?",
+        "answer": "Training takes place twice per week. The times are fixed and enable continuous development."
       },
       {
-        "question": "FAQ Question 3?",
-        "answer": "FAQ Answer 3 explaining the response to the third question."
+        "question": "Do I need prior experience?",
+        "answer": "No, prior experience is not required. Training begins with the fundamentals and builds systematically."
       },
       {
-        "question": "FAQ Question 4?",
-        "answer": "FAQ Answer 4 explaining the response to the fourth question."
+        "question": "What is Shotokan Karate?",
+        "answer": "Shotokan is a traditional karate style based on discipline, respect, and systematic training. Techniques are taught in Kihon, Kata, and Kumite."
       },
       {
-        "question": "FAQ Question 5?",
-        "answer": "FAQ Answer 5 explaining the response to the fifth question."
+        "question": "How does a trial lesson work?",
+        "answer": "In the trial lesson, you get to know the training and can ask questions. Registration in advance is required."
       },
       {
-        "question": "FAQ Question 6?",
-        "answer": "FAQ Answer 6 explaining the response to the sixth question."
+        "question": "What equipment is needed?",
+        "answer": "Comfortable sportswear is sufficient to start. A karate gi will be needed later and can be discussed after the trial lesson."
       }
     ]
   },
   "testimonials": {
-    "heading": "Testimonials Heading",
-    "subtitle": "Testimonials subtitle text describing customer success stories.",
-    "usedModulesLabel": "Used modules",
+    "heading": "What participants say",
+    "subtitle": "Experiences from children, youth, and adults in training.",
+    "usedModulesLabel": "",
     "googleReviews": {
-      "url": "https://share.google/jnQQp0UIEti8scgY7",
-      "text": "Google Reviews · 5.0 / 5.0",
+      "url": "https://share.google/8Z66SETw3YfIXJNjD",
+      "text": "★ 5.0/5 based on Google Reviews",
       "stars": "★★★★★",
-      "ariaLabel": "Google Reviews: 5 out of 5 stars"
+      "ariaLabel": "Google Reviews: 5.0 out of 5 stars"
     },
     "navigation": {
-      "previous": "Previous testimonial",
-      "next": "Next testimonial"
+      "previous": "Previous",
+      "next": "Next"
     },
     "labels": {
-      "customer": "Customer",
+      "customer": "Participant",
       "outcome": "Outcome",
       "description": "Description"
     },
     "testimonials": [
       {
-        "customer": "Mock Company 1 · Mock Person Name, Mock Title",
-        "outcome": "Mock Outcome 1",
-        "description": "Mock testimonial description 1 explaining the customer experience and results.",
+        "customer": "Parents · Child, 8 years",
+        "outcome": "Improved concentration",
+        "description": "Our child has developed significantly more self-confidence through structured training. The clear rules and respectful interaction also have a positive effect on school.",
         "outcomes": [
-          { "value": "Mock Value 1", "label": "Mock Label 1" },
-          { "value": "Mock Value 2", "label": "Mock Label 2" }
+          { "value": "6 months", "label": "Training duration" },
+          { "value": "Yellow belt", "label": "Current grade" }
         ],
-        "modules": ["Mock Module 1"]
+        "modules": []
       },
       {
-        "customer": "Mock Company 2 · Mock Person Name, Mock Title",
-        "outcome": "Mock Outcome 2",
-        "description": "Mock testimonial description 2 explaining the customer experience and results.",
+        "customer": "Adult participant · 35 years",
+        "outcome": "Physical fitness",
+        "description": "Training provides a good balance to professional life. The structured approach and traditional values make the training particularly valuable.",
         "outcomes": [
-          { "value": "Mock Value 3", "label": "Mock Label 3" },
-          { "value": "Mock Value 4", "label": "Mock Label 4" }
+          { "value": "2 years", "label": "Training duration" },
+          { "value": "Green belt", "label": "Current grade" }
         ],
-        "modules": ["Mock Module 2", "Mock Module 3"]
+        "modules": []
       },
       {
-        "customer": "Mock Company 3 · Mock Person Name, Mock Title",
-        "outcome": "Mock Outcome 3",
-        "description": "Mock testimonial description 3 explaining the customer experience and results.",
+        "customer": "Youth · 16 years",
+        "outcome": "Personal development",
+        "description": "Karate helps me develop discipline and self-control. The regular examinations clearly show me my progress.",
         "outcomes": [
-          { "value": "Mock Value 5", "label": "Mock Label 5" },
-          { "value": "Mock Value 6", "label": "Mock Label 6" }
+          { "value": "1 year", "label": "Training duration" },
+          { "value": "Orange belt", "label": "Current grade" }
         ],
-        "modules": ["Mock Module 4", "Mock Module 5", "Mock Module 6"]
+        "modules": []
       }
     ]
   },
   "finalCta": {
-    "heading": "Final CTA Heading",
-    "subtitle": "Final CTA subtitle text encouraging the user to take action.",
-    "ctaLabel": "Mock Get Started"
+    "heading": "Start your child's self-confidence journey",
+    "subtitle": "Your child learns clear skills through structured Shotokan training.",
+    "ctaLabel": "Book trial lesson",
+    "address": {
+      "street": "Winthirplatz 6",
+      "city": "80639 Munich",
+      "phone": "Tel.: +49 179 1226471"
+    }
   },
   "footer": {
-    "copyright": "© 2024 Mock Brand. All rights reserved.",
+    "copyright": "© 2024 Karate Do Neuhausen. All rights reserved.",
     "links": {
-      "privacy": "Mock Privacy",
-      "terms": "Mock Terms",
-      "contact": "Mock Contact"
+      "privacy": "Privacy",
+      "terms": "",
+      "contact": "Impressum"
     }
   }
 }
-

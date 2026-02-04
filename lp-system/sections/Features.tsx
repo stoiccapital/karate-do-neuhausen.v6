@@ -66,8 +66,36 @@ export function Features({ copy, theme }: FeaturesProps) {
                   </p>
                 </div>
                 <div className="flex justify-center lg:justify-end">
-                  <div className={`w-full ${components.media.maxWidth.xl} ${components.media.aspectRatios['16:9']} ${components.radius.media} border border-border-subtle bg-bg-neutral flex items-center justify-center`}>
-                    <div className="text-text-muted text-sm">Image</div>
+                  <div className={`w-full ${components.media.maxWidth.xl} ${components.media.aspectRatios['16:9']} ${components.radius.media} border border-border-subtle bg-bg-neutral overflow-hidden`}>
+                    {index === 0 ? (
+                      <img 
+                        src="/images/features/structure-training.jpg" 
+                        alt={item.title || "Feature image"} 
+                        className="w-full h-full object-cover object-center"
+                      />
+                    ) : index === 1 ? (
+                      <img 
+                        src="/images/features/trainer-7-8-dan.jpg" 
+                        alt={item.title || "Feature image"} 
+                        className="w-full h-full object-cover object-center"
+                      />
+                    ) : index === 2 ? (
+                      <img 
+                        src="/images/features/zweimal-pro-woche.jpg" 
+                        alt={item.title || "Feature image"} 
+                        className="w-full h-full object-cover object-center"
+                      />
+                    ) : index === 3 ? (
+                      <img 
+                        src="/images/features/traditionelles-karate-moderne-paedagogik.jpg" 
+                        alt={item.title || "Feature image"} 
+                        className="w-full h-full object-cover object-center"
+                      />
+                    ) : (
+                      <div className="flex items-center justify-center h-full">
+                        <div className="text-text-muted text-sm">Image</div>
+                      </div>
+                    )}
                   </div>
                 </div>
               </SplitGrid>
